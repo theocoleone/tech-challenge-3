@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+
+# Dados locais (não versionar datasets grandes — vivem no S3)
+data/*
+!data/.gitkeep
+*.csv
+*.parquet
+
+# Modelos treinados / artefatos
+*.joblib
+*.pkl
+models/
+
+# Dashboard gerado (HTML pesado com dados inline)
+dashboard/index.html
+
+# Credenciais (NUNCA versionar chaves)
+*.json
+!package.json
+secrets/

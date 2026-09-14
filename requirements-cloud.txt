@@ -1,0 +1,4 @@
+# Dependências para o caminho de nuvem (treino gerenciado no SageMaker).
+# Instalar separadamente para não pesar/quebrar o ambiente local de modelagem:
+#   pip install -r requirements-cloud.txt
+sagemaker==2.232.2
