@@ -7,19 +7,21 @@ Chaves de junção: `id_municipio` (código IBGE de 7 dígitos) e `ano`.
 
 | Coluna | Tipo | Descrição |
 |---|---|---|
-| `id_aluno` | string | Identificador anonimizado do aluno. Não é feature. |
+| `id_aluno` | string | Identificador anonimizado do aluno, atribuído por edição (o mesmo código pode reaparecer em outro ano para outro aluno). Não é feature. |
 | `id_municipio` | string | Código IBGE do município da escola. Chave de junção; não é feature. |
-| `id_escola` | string | Identificador anonimizado da escola (não é o código INEP). Não é feature. |
-| `nome_municipio` | string | Nome do município (diretório IBGE). Só para relatórios; não é feature. |
-| `ano` | int | Ano da avaliação (2023 ou 2024). Reconstruído da partição `ano=` no S3. |
+| `nome_municipio` | string | Nome do município. Só para relatórios; não é feature. |
+| `ano` | int | Ano da avaliação (2023 ou 2024). Reconstruído da partição `ano=` no S3. AC, DF e SP só têm 2024. |
 | `rede` | string | Dependência administrativa, código SAEB: `2` estadual, `3` municipal, `4` privada (25 registros). Feature categórica. |
 | `sigla_uf` | string | UF da escola. Feature categórica. |
-| `alfabetizado` | int | **Alvo.** 1 = alfabetizado, 0 = não alfabetizado, conforme rótulo da fonte. Alunos ausentes constam como 0. |
-| `presenca` | int | Presença na avaliação (1/0). Usada só para definir população e análises de sensibilidade; nunca como feature. |
+| `alfabetizado` | int | **Alvo.** 1 = alfabetizado, 0 = não alfabetizado, conforme rótulo da fonte. Todo aluno ausente consta como 0. |
+| `presenca` | int | Presença na avaliação (1/0); 86,8% presentes. Só define população e análises de sensibilidade; nunca é feature. |
+
+A Silver também traz `id_escola` (anonimizado, sem correspondência com o código INEP), que não é carregado.
 
 ## Contexto escolar — Censo Escolar INEP, agregado por (`id_municipio`, `ano`), prefixo `esc_`
 
-Só escolas com anos iniciais do fundamental. Proporções variam de 0 a 1.
+Só escolas públicas (rede federal, estadual ou municipal) com anos iniciais do fundamental, as
+mesmas redes dos alunos avaliados. Proporções variam de 0 a 1.
 
 | Coluna | Descrição |
 |---|---|
@@ -91,12 +93,14 @@ Diretório de municípios (Base dos Dados / IBGE):
 ## Colunas da Silver que não entram na base
 
 Medidas no exame ou derivadas do alvo (vazamento; `COLUNAS_LEAKAGE` em `src/config.py`):
-`proficiencia`, `preenchimento_caderno`, `percentual_participacao`, `taxa_alfabetizacao`,
-`media_portugues`, `proporcao_aluno_nivel_0..8`, `gap_para_meta_2030`, `ranking_na_uf`,
-`atingimento_meta_2030_pct`, `variacao_pp` e as descrições `*_desc`. Também ficam fora `caderno`
-(administrativo), `serie` (constante) e `peso_aluno` (peso amostral).
+`proficiencia`, `preenchimento_caderno` e as descrições `*_desc`. Também ficam fora `caderno`
+(administrativo), `serie` (constante "2") e `peso_aluno` (peso amostral). As colunas agregadas da
+Gold listadas em `COLUNAS_LEAKAGE` (`taxa_alfabetizacao`, `media_portugues`, `gap_para_meta_2030`,
+`ranking_na_uf` etc.) nunca são juntadas à base de treino.
 
 ## Camada Gold usada na aplicação estratégica
 
-`gold/indicador_municipio` (por município e ano): `taxa_alfabetizacao`, `meta_alfabetizacao_2030`,
-`percentual_participacao`. Só é lida no `notebooks/03_aplicacao_estrategica.py`.
+`gold/indicador_municipio`, por município e ano (partição `ano=`): `nome`, `sigla_uf`,
+`taxa_alfabetizacao` (0–100), `media_portugues`, `meta_alfabetizacao_2024/2026/2028/2030` (0–100),
+`gap_para_meta_2030` e `ranking_na_uf`. Só é lida no `notebooks/03_aplicacao_estrategica.py`; a
+participação por município-ano é calculada a partir de `presenca` na base analítica.

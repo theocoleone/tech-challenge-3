@@ -24,7 +24,11 @@ _ESCOLA_QTD = [
 
 
 def carregar_censo_escolar_municipio(anos=(2023, 2024)) -> pd.DataFrame:
-    """Infra escolar (anos iniciais) agregada por (id_municipio, ano). Prefixo `esc_`."""
+    """Infra das escolas públicas de anos iniciais, agregada por (id_municipio, ano). Prefixo `esc_`.
+
+    Só rede pública (rede != '4'): os alunos avaliados no SAEB Alfabetização são de escolas públicas,
+    então o contexto escolar do município é medido nas mesmas redes.
+    """
     prop = ",\n               ".join(
         f"AVG(CAST({c} AS FLOAT64)) AS esc_prop_{c}" for c in _ESCOLA_BIN
     )
@@ -41,6 +45,7 @@ def carregar_censo_escolar_municipio(anos=(2023, 2024)) -> pd.DataFrame:
         FROM `basedosdados.br_inep_censo_escolar.escola`
         WHERE ano IN ({anos_sql})
           AND etapa_ensino_fundamental_anos_iniciais = 1
+          AND rede != '4'
         GROUP BY id_municipio, ano
     """
     df = query_bigquery(sql)
