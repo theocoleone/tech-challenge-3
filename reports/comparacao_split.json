@@ -1,0 +1,26 @@
+{
+  "por_municipio": {
+    "modelo": "Regressão Logística (tunado)",
+    "acuracia": 0.5945,
+    "precisao_nao_alf": 0.5842,
+    "recall_nao_alf": 0.5684,
+    "f1_macro": 0.5937,
+    "roc_auc": 0.6333,
+    "auc_pr": 0.6448
+  },
+  "aleatorio_por_aluno": {
+    "modelo": "Regressão Logística (tunado)",
+    "acuracia": 0.6027,
+    "precisao_nao_alf": 0.5932,
+    "recall_nao_alf": 0.586,
+    "f1_macro": 0.6023,
+    "roc_auc": 0.6426,
+    "auc_pr": 0.653
+  },
+  "diferenca_roc_auc": 0.0093,
+  "xgboost_referencia": {
+    "roc_auc_cv_por_municipio": 0.6228,
+    "roc_auc_teste_aleatorio": 0.6719,
+    "leitura": "o boosting ganha no split aleatório porque memoriza municípios; em municípios novos perde para a regressão logística"
+  }
+}

@@ -4,6 +4,7 @@ Lê Parquet direto do S3 com boto3/pandas, reconstruindo as colunas de partiçã
 (`ano=2024/`) a partir do path, como no data lake do TC2.
 """
 import io
+import os
 import re
 
 import boto3
@@ -13,10 +14,10 @@ from src import config
 
 
 def _boto_session() -> boto3.Session:
-    """Sessão boto3: role IAM no SageMaker, profile nomeado localmente."""
-    if config.rodando_no_sagemaker():
-        return boto3.Session(region_name=config.REGION)
-    return boto3.Session(profile_name=config.PROFILE, region_name=config.REGION)
+    """Usa o profile do projeto se existir na máquina; senão, a cadeia padrão de credenciais."""
+    if config.PROFILE in boto3.Session().available_profiles:
+        return boto3.Session(profile_name=config.PROFILE, region_name=config.REGION)
+    return boto3.Session(region_name=config.REGION)
 
 
 def ler_parquet_s3(prefix: str, bucket: str = config.BUCKET, columns=None) -> pd.DataFrame:
@@ -51,6 +52,21 @@ def gravar_parquet_s3(df: pd.DataFrame, key: str, bucket: str = config.BUCKET) -
     buf.seek(0)
     _boto_session().client("s3").put_object(Bucket=bucket, Key=key, Body=buf.getvalue())
     return f"s3://{bucket}/{key}"
+
+
+def publicar_artefatos(caminhos, prefix: str, bucket: str = config.BUCKET) -> list:
+    """Sobe arquivos locais para s3://bucket/prefix/<nome>. Falha de credencial só avisa."""
+    s3 = _boto_session().client("s3")
+    uris = []
+    try:
+        for caminho in caminhos:
+            key = f"{prefix}/{os.path.basename(caminho)}"
+            s3.upload_file(caminho, bucket, key)
+            uris.append(f"s3://{bucket}/{key}")
+        print(f"     {len(uris)} artefatos publicados em s3://{bucket}/{prefix}/")
+    except Exception as e:
+        print(f"     [aviso] artefatos não publicados no S3 ({type(e).__name__}: {e})")
+    return uris
 
 
 def query_bigquery(

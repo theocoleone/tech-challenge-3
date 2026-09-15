@@ -1,6 +1,38 @@
 {
-  "municipios_avaliados": 5302,
-  "municipios_nao_atingem_meta_2030": 2628,
-  "pct_nao_atingem": 49.6,
-  "gap_medio_pp": -0.51
+  "municipios_avaliados": 4271,
+  "municipios_excluidos": 1229,
+  "motivos_exclusao": {
+    "participação/alunos insuficientes": 1031,
+    "sem meta": 94,
+    "sem 2023": 52,
+    "sem 2024": 52
+  },
+  "criterios_exclusao": "sem 2023, 2024 ou meta na Gold, < 50 alunos ou participação < 50% em 2024",
+  "cenario_referencia": "tendencia_encolhida",
+  "limite_velocidade_pp_ano": 5.0,
+  "encolhimento": "peso do município = n/(n+200); o restante vem da tendência média da UF",
+  "cenarios": {
+    "mantem_2024": {
+      "municipios_nao_atingem": 3459,
+      "pct_nao_atingem": 81.0,
+      "gap_medio_pp": -17.75
+    },
+    "tendencia_uf": {
+      "municipios_nao_atingem": 2825,
+      "pct_nao_atingem": 66.1,
+      "gap_medio_pp": -12.48
+    },
+    "tendencia_encolhida": {
+      "municipios_nao_atingem": 2547,
+      "pct_nao_atingem": 59.6,
+      "gap_medio_pp": -12.75
+    }
+  },
+  "pct_nao_atingem": 59.6,
+  "faixa_pct_nao_atingem": [
+    59.6,
+    81.0
+  ],
+  "municipios_nao_atingem_meta_2030": 2547,
+  "gap_medio_pp": -12.75
 }

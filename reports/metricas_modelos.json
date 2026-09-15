@@ -1,38 +1,38 @@
 {
   "acuracia":{
-    "XGBoost":0.6226,
-    "Random Forest":0.6212,
-    "Regressão Logística":0.6017,
-    "Árvore de Decisão":0.5841
+    "Regressão Logística":0.5931,
+    "Random Forest":0.5888,
+    "XGBoost":0.5874,
+    "Árvore de Decisão":0.5656
   },
   "precisao_nao_alf":{
-    "XGBoost":0.6144,
-    "Random Forest":0.6201,
-    "Regressão Logística":0.5959,
-    "Árvore de Decisão":0.6202
+    "Regressão Logística":0.5906,
+    "Random Forest":0.5877,
+    "XGBoost":0.5766,
+    "Árvore de Decisão":0.5666
   },
   "recall_nao_alf":{
-    "XGBoost":0.6039,
-    "Random Forest":0.5735,
-    "Regressão Logística":0.5653,
-    "Árvore de Decisão":0.3763
+    "Regressão Logística":0.5415,
+    "Random Forest":0.5357,
+    "XGBoost":0.5824,
+    "Árvore de Decisão":0.5088
   },
   "f1_macro":{
-    "XGBoost":0.6221,
-    "Random Forest":0.6197,
-    "Regressão Logística":0.6006,
-    "Árvore de Decisão":0.5634
+    "Regressão Logística":0.5905,
+    "Random Forest":0.5846,
+    "XGBoost":0.5867,
+    "Árvore de Decisão":0.5535
   },
   "roc_auc":{
-    "XGBoost":0.6731,
-    "Random Forest":0.6717,
-    "Regressão Logística":0.6423,
-    "Árvore de Decisão":0.6292
+    "Regressão Logística":0.6303,
+    "Random Forest":0.625,
+    "XGBoost":0.6228,
+    "Árvore de Decisão":0.5991
   },
   "auc_pr":{
-    "XGBoost":0.6865,
-    "Random Forest":0.6842,
-    "Regressão Logística":0.6527,
-    "Árvore de Decisão":0.6364
+    "Regressão Logística":0.6398,
+    "Random Forest":0.6393,
+    "XGBoost":0.6399,
+    "Árvore de Decisão":0.6094
   }
 }

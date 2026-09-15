@@ -1,0 +1,150 @@
+{
+  "protocolo": {
+    "protocolo": "GroupShuffleSplit por id_municipio (80/20)",
+    "treino": {
+      "alunos": 661424,
+      "municipios": 4436,
+      "taxa_alvo": 0.5127
+    },
+    "teste": {
+      "alunos": 138576,
+      "municipios": 1109,
+      "taxa_alvo": 0.515
+    }
+  },
+  "n_cv": 300000,
+  "modelos": {
+    "Regressão Logística": {
+      "acuracia": {
+        "validacao_media": 0.5931,
+        "validacao_desvio": 0.0082,
+        "treino_media": 0.6002
+      },
+      "precisao_nao_alf": {
+        "validacao_media": 0.5906,
+        "validacao_desvio": 0.0109,
+        "treino_media": 0.5925
+      },
+      "recall_nao_alf": {
+        "validacao_media": 0.5415,
+        "validacao_desvio": 0.042,
+        "treino_media": 0.5766
+      },
+      "f1_macro": {
+        "validacao_media": 0.5905,
+        "validacao_desvio": 0.0076,
+        "treino_media": 0.5994
+      },
+      "roc_auc": {
+        "validacao_media": 0.6303,
+        "validacao_desvio": 0.013,
+        "treino_media": 0.6421
+      },
+      "auc_pr": {
+        "validacao_media": 0.6398,
+        "validacao_desvio": 0.0217,
+        "treino_media": 0.653
+      },
+      "tempo_fit_s": 2.2
+    },
+    "Árvore de Decisão": {
+      "acuracia": {
+        "validacao_media": 0.5656,
+        "validacao_desvio": 0.0106,
+        "treino_media": 0.5914
+      },
+      "precisao_nao_alf": {
+        "validacao_media": 0.5666,
+        "validacao_desvio": 0.0257,
+        "treino_media": 0.5848
+      },
+      "recall_nao_alf": {
+        "validacao_media": 0.5088,
+        "validacao_desvio": 0.1392,
+        "treino_media": 0.5728
+      },
+      "f1_macro": {
+        "validacao_media": 0.5535,
+        "validacao_desvio": 0.0249,
+        "treino_media": 0.5882
+      },
+      "roc_auc": {
+        "validacao_media": 0.5991,
+        "validacao_desvio": 0.0185,
+        "treino_media": 0.633
+      },
+      "auc_pr": {
+        "validacao_media": 0.6094,
+        "validacao_desvio": 0.018,
+        "treino_media": 0.6387
+      },
+      "tempo_fit_s": 2.8
+    },
+    "Random Forest": {
+      "acuracia": {
+        "validacao_media": 0.5888,
+        "validacao_desvio": 0.0119,
+        "treino_media": 0.6317
+      },
+      "precisao_nao_alf": {
+        "validacao_media": 0.5877,
+        "validacao_desvio": 0.0192,
+        "treino_media": 0.6304
+      },
+      "recall_nao_alf": {
+        "validacao_media": 0.5357,
+        "validacao_desvio": 0.0667,
+        "treino_media": 0.5903
+      },
+      "f1_macro": {
+        "validacao_media": 0.5846,
+        "validacao_desvio": 0.0114,
+        "treino_media": 0.6305
+      },
+      "roc_auc": {
+        "validacao_media": 0.625,
+        "validacao_desvio": 0.0119,
+        "treino_media": 0.6881
+      },
+      "auc_pr": {
+        "validacao_media": 0.6393,
+        "validacao_desvio": 0.0171,
+        "treino_media": 0.7036
+      },
+      "tempo_fit_s": 7.2
+    },
+    "XGBoost": {
+      "acuracia": {
+        "validacao_media": 0.5874,
+        "validacao_desvio": 0.014,
+        "treino_media": 0.6329
+      },
+      "precisao_nao_alf": {
+        "validacao_media": 0.5766,
+        "validacao_desvio": 0.0159,
+        "treino_media": 0.6257
+      },
+      "recall_nao_alf": {
+        "validacao_media": 0.5824,
+        "validacao_desvio": 0.0232,
+        "treino_media": 0.6139
+      },
+      "f1_macro": {
+        "validacao_media": 0.5867,
+        "validacao_desvio": 0.0136,
+        "treino_media": 0.6324
+      },
+      "roc_auc": {
+        "validacao_media": 0.6228,
+        "validacao_desvio": 0.0172,
+        "treino_media": 0.6892
+      },
+      "auc_pr": {
+        "validacao_media": 0.6399,
+        "validacao_desvio": 0.0202,
+        "treino_media": 0.7054
+      },
+      "tempo_fit_s": 3.6
+    }
+  }
+}

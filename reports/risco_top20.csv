@@ -1,21 +1,21 @@
-id_municipio,sigla_uf,nome_regiao,taxa_alf,idhm,ivs,n_alunos,cluster
-5219308,GO,Centro-Oeste,0.0,0.724,0.264,410,1
-2919900,BA,Nordeste,0.079,0.604,0.587,89,0
-1707702,TO,Norte,0.109,0.621,0.456,156,0
-1200435,AC,Norte,0.118,0.517,0.564,76,0
-2410108,RN,Nordeste,0.121,0.587,0.487,207,0
-2902252,BA,Nordeste,0.122,0.559,0.536,172,0
-3162450,MG,Sudeste,0.122,0.529,0.579,449,0
-2805109,SE,Nordeste,0.126,0.592,0.544,119,0
-2904753,BA,Nordeste,0.126,0.565,0.469,317,0
-1703073,TO,Norte,0.129,0.603,0.544,163,0
-1301100,AM,Norte,0.133,0.557,0.543,1035,0
-2915403,BA,Nordeste,0.14,0.592,0.515,171,0
-2414456,RN,Nordeste,0.141,0.602,0.417,92,0
-2907202,BA,Nordeste,0.143,0.57,0.467,1255,0
-2505238,PB,Nordeste,0.15,0.524,0.644,120,0
-2916302,BA,Nordeste,0.153,0.572,0.491,176,0
-2929800,BA,Nordeste,0.154,0.549,0.491,188,0
-2804300,SE,Nordeste,0.156,0.626,0.494,77,0
-2912608,BA,Nordeste,0.157,0.511,0.572,89,0
-1711951,TO,Norte,0.161,0.579,0.45,124,0
+id_municipio,nome_municipio,sigla_uf,nome_regiao,n_alunos_2024,presenca_2024,taxa_presentes_2024,taxa_alf_2024,risco_previsto_2024,idhm,ivs,cluster,alerta_participacao
+2805109,Pedrinhas,SE,Nordeste,65.0,0.954,0.113,0.108,0.579,0.592,0.544,0,False
+2203354,Dirceu Arcoverde,PI,Nordeste,50.0,0.88,0.114,0.1,0.444,0.561,0.465,0,False
+1707702,Filadélfia,TO,Norte,65.0,0.846,0.127,0.108,0.649,0.621,0.456,0,False
+2902252,Arataca,BA,Nordeste,77.0,0.792,0.131,0.104,0.673,0.559,0.536,0,True
+2915403,Itaju do Colônia,BA,Nordeste,79.0,0.747,0.153,0.114,0.636,0.592,0.515,0,True
+1711951,Lagoa do Tocantins,TO,Norte,53.0,0.981,0.154,0.151,0.554,0.579,0.45,0,False
+1200435,Santa Rosa do Purus,AC,Norte,76.0,0.763,0.155,0.118,0.573,0.517,0.564,0,True
+2802700,Ilha das Flores,SE,Nordeste,129.0,0.891,0.157,0.14,0.667,0.562,0.506,0,False
+2801504,Carmópolis,SE,Nordeste,166.0,0.892,0.162,0.145,0.615,0.643,0.347,1,False
+2901908,Aporá,BA,Nordeste,238.0,0.966,0.165,0.16,0.664,0.548,0.523,0,False
+2805604,Porto da Folha,SE,Nordeste,249.0,0.916,0.175,0.161,0.65,0.568,0.474,0,False
+2933158,Várzea Nova,BA,Nordeste,161.0,0.969,0.179,0.174,0.682,0.555,0.515,0,False
+2902203,Aramari,BA,Nordeste,87.0,0.897,0.179,0.161,0.658,0.588,0.539,0,False
+1703073,Barra do Ouro,TO,Norte,76.0,0.947,0.181,0.171,0.631,0.603,0.544,0,False
+2900207,Abaré,BA,Nordeste,162.0,0.981,0.182,0.179,0.707,0.575,0.51,0,False
+1710706,Itaguatins,TO,Norte,60.0,0.817,0.184,0.15,0.609,0.616,0.466,0,False
+2920809,Marcionílio Souza,BA,Nordeste,79.0,0.886,0.186,0.165,0.662,0.561,0.574,0,False
+1304260,Uarini,AM,Norte,231.0,0.861,0.191,0.165,0.638,0.527,0.626,0,False
+1703008,Babaçulândia,TO,Norte,83.0,0.819,0.191,0.157,0.588,0.642,0.407,0,False
+2206654,Morro Cabeça no Tempo,PI,Nordeste,77.0,0.935,0.194,0.182,0.452,0.542,0.417,0,False

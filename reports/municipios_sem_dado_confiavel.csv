@@ -1,0 +1,1156 @@
+id_municipio,nome_municipio,sigla_uf,n_alunos_2024,presenca_2024,motivo
+2700805,Belém,AL,46.0,0.9347826086956522,menos de 50 alunos
+2701506,Campo Grande,AL,48.0,0.9583333333333334,menos de 50 alunos
+2704906,Mar Vermelho,AL,37.0,0.8918918918918919,menos de 50 alunos
+2705903,Olho d'Água Grande,AL,28.0,1.0,menos de 50 alunos
+2707008,Pindoba,AL,27.0,1.0,menos de 50 alunos
+2900108,Abaíra,BA,37.0,0.8918918918918919,menos de 50 alunos
+2900504,Érico Cardoso,BA,46.0,0.9347826086956522,menos de 50 alunos
+2900900,Almadina,BA,47.0,0.9787234042553191,menos de 50 alunos
+2905156,Caetanos,BA,37.0,0.7567567567567568,menos de 50 alunos
+2907400,Catolândia,BA,37.0,0.9459459459459459,menos de 50 alunos
+2908804,Contendas do Sincorá,BA,33.0,0.9696969696969697,menos de 50 alunos
+2910206,Dom Macedo Costa,BA,46.0,0.9130434782608695,menos de 50 alunos
+2910305,Elísio Medrado,BA,35.0,0.9714285714285714,menos de 50 alunos
+2911253,Gavião,BA,42.0,0.9047619047619048,menos de 50 alunos
+2912608,Ibiquera,BA,34.0,0.9411764705882353,menos de 50 alunos
+2913309,Ichu,BA,49.0,0.5714285714285714,menos de 50 alunos
+2914208,Irajuba,BA,28.0,0.9285714285714286,menos de 50 alunos
+2918605,Jussiape,BA,40.0,0.975,menos de 50 alunos
+2918704,Lafaiete Coutinho,BA,23.0,1.0,menos de 50 alunos
+2918902,Lajedão,BA,30.0,0.9666666666666667,menos de 50 alunos
+2919009,Lajedinho,BA,35.0,0.9428571428571428,menos de 50 alunos
+2919108,Lamarão,BA,47.0,0.9787234042553191,menos de 50 alunos
+2919900,Macururé,BA,40.0,1.0,menos de 50 alunos
+2919959,Maetinga,BA,38.0,1.0,menos de 50 alunos
+2922706,Nova Canaã,BA,16.0,1.0,menos de 50 alunos
+2922730,Nova Fátima,BA,49.0,0.9591836734693877,menos de 50 alunos
+2922854,Nova Redenção,BA,47.0,0.7872340425531915,menos de 50 alunos
+2924108,Pedrão,BA,32.0,0.9375,menos de 50 alunos
+2926905,Rio do Pires,BA,40.0,0.8,menos de 50 alunos
+2301802,Baixio,CE,36.0,1.0,menos de 50 alunos
+5200159,Adelândia,GO,34.0,0.9705882352941176,menos de 50 alunos
+5200209,Água Limpa,GO,24.0,0.9583333333333334,menos de 50 alunos
+5200506,Aloândia,GO,22.0,1.0,menos de 50 alunos
+5200829,Amaralina,GO,40.0,0.975,menos de 50 alunos
+5200902,Amorinópolis,GO,31.0,1.0,menos de 50 alunos
+5201207,Anhanguera,GO,17.0,0.9411764705882353,menos de 50 alunos
+5201454,Aparecida do Rio Doce,GO,44.0,1.0,menos de 50 alunos
+5201603,Araçu,GO,48.0,0.9583333333333334,menos de 50 alunos
+5202353,Arenópolis,GO,33.0,0.9393939393939394,menos de 50 alunos
+5202601,Aurilândia,GO,32.0,1.0,menos de 50 alunos
+5202809,Avelinópolis,GO,29.0,0.896551724137931,menos de 50 alunos
+5203104,Baliza,GO,30.0,0.9333333333333333,menos de 50 alunos
+5203575,Bonópolis,GO,49.0,1.0,menos de 50 alunos
+5203939,Buriti de Goiás,GO,32.0,0.9375,menos de 50 alunos
+5203962,Buritinópolis,GO,46.0,0.9130434782608695,menos de 50 alunos
+5204201,Cachoeira de Goiás,GO,15.0,0.9333333333333333,menos de 50 alunos
+5204557,Caldazinha,GO,46.0,1.0,menos de 50 alunos
+5204607,Campestre de Goiás,GO,47.0,1.0,menos de 50 alunos
+5204656,Campinaçu,GO,48.0,0.9166666666666666,menos de 50 alunos
+5205059,Castelândia,GO,46.0,1.0,menos de 50 alunos
+5205703,Córrego do Ouro,GO,14.0,1.0,menos de 50 alunos
+5206503,Cromínia,GO,49.0,0.8979591836734694,menos de 50 alunos
+5206602,Cumari,GO,36.0,0.9166666666666666,menos de 50 alunos
+5206800,Damolândia,GO,38.0,0.868421052631579,menos de 50 alunos
+5206909,Davinópolis,GO,28.0,0.8214285714285714,menos de 50 alunos
+5207105,Diorama,GO,22.0,1.0,menos de 50 alunos
+5207352,Edealina,GO,44.0,1.0,menos de 50 alunos
+5207600,Fazenda Nova,GO,40.0,0.975,menos de 50 alunos
+5208103,Formoso,GO,45.0,1.0,menos de 50 alunos
+5209291,Guaraíta,GO,23.0,0.9130434782608695,menos de 50 alunos
+5209408,Guarani de Goiás,GO,48.0,1.0,menos de 50 alunos
+5209457,Guarinos,GO,24.0,1.0,menos de 50 alunos
+5209606,Heitoraí,GO,36.0,0.9166666666666666,menos de 50 alunos
+5209804,Hidrolina,GO,40.0,1.0,menos de 50 alunos
+5210158,Ipiranga de Goiás,GO,29.0,0.9655172413793104,menos de 50 alunos
+5210307,Israelândia,GO,27.0,1.0,menos de 50 alunos
+5210802,Itajá,GO,35.0,1.0,menos de 50 alunos
+5211602,Ivolândia,GO,23.0,1.0,menos de 50 alunos
+5212006,Jaupaci,GO,17.0,1.0,menos de 50 alunos
+5212055,Jesúpolis,GO,35.0,1.0,menos de 50 alunos
+5212253,Lagoa Santa,GO,21.0,1.0,menos de 50 alunos
+5212600,Mairipotaba,GO,28.0,1.0,menos de 50 alunos
+5212907,Marzagão,GO,48.0,1.0,menos de 50 alunos
+5213053,Mimoso de Goiás,GO,30.0,1.0,menos de 50 alunos
+5213400,Moiporá,GO,13.0,1.0,menos de 50 alunos
+5213772,Montividiu do Norte,GO,39.0,0.8974358974358975,menos de 50 alunos
+5213855,Morro Agudo de Goiás,GO,32.0,1.0,menos de 50 alunos
+5213905,Mossâmedes,GO,38.0,0.9736842105263158,menos de 50 alunos
+5214705,Nova América,GO,21.0,1.0,menos de 50 alunos
+5214804,Nova Aurora,GO,19.0,1.0,menos de 50 alunos
+5214879,Nova Iguaçu de Goiás,GO,41.0,0.975609756097561,menos de 50 alunos
+5214903,Nova Roma,GO,23.0,0.9130434782608695,menos de 50 alunos
+5215207,Novo Brasil,GO,31.0,1.0,menos de 50 alunos
+5215652,Palestina de Goiás,GO,43.0,1.0,menos de 50 alunos
+5215801,Palmelo,GO,19.0,0.8947368421052632,menos de 50 alunos
+5215900,Palminópolis,GO,38.0,0.9473684210526315,menos de 50 alunos
+5216007,Panamá,GO,35.0,0.9142857142857143,menos de 50 alunos
+5216452,Perolândia,GO,45.0,1.0,menos de 50 alunos
+5216908,Pilar de Goiás,GO,28.0,0.9285714285714286,menos de 50 alunos
+5218391,Professor Jamil,GO,49.0,0.8979591836734694,menos de 50 alunos
+5219209,Santa Cruz de Goiás,GO,45.0,0.9333333333333333,menos de 50 alunos
+5219357,Santa Isabel,GO,41.0,0.8780487804878049,menos de 50 alunos
+5219456,Santa Rita do Novo Destino,GO,24.0,0.9583333333333334,menos de 50 alunos
+5219506,Santa Rosa de Goiás,GO,37.0,1.0,menos de 50 alunos
+5219605,Santa Tereza de Goiás,GO,36.0,1.0,menos de 50 alunos
+5220058,São João da Paraúna,GO,25.0,0.96,menos de 50 alunos
+5220264,São Miguel do Passa Quatro,GO,44.0,0.9772727272727273,menos de 50 alunos
+5220280,São Patrício,GO,22.0,1.0,menos de 50 alunos
+5220702,Sítio d'Abadia,GO,34.0,1.0,menos de 50 alunos
+5221304,Três Ranchos,GO,34.0,0.7941176470588235,menos de 50 alunos
+5221452,Trombas,GO,40.0,0.925,menos de 50 alunos
+5221577,Uirapuru,GO,20.0,1.0,menos de 50 alunos
+5221809,Urutaí,GO,37.0,0.918918918918919,menos de 50 alunos
+5221908,Varjão,GO,46.0,1.0,menos de 50 alunos
+2101350,Bacurituba,MA,18.0,1.0,menos de 50 alunos
+2101939,Bernardo do Mearim,MA,33.0,1.0,menos de 50 alunos
+2106359,Marajá do Sena,MA,47.0,0.8723404255319149,menos de 50 alunos
+2106672,Milagres do Maranhão,MA,34.0,0.9705882352941176,menos de 50 alunos
+2109759,Santa Filomena do Maranhão,MA,44.0,1.0,menos de 50 alunos
+2110807,São Félix de Balsas,MA,39.0,0.7692307692307693,menos de 50 alunos
+2111672,São Roberto,MA,30.0,0.9333333333333333,menos de 50 alunos
+2111953,Sucupira do Riachão,MA,31.0,1.0,menos de 50 alunos
+3100401,Acaiaca,MG,28.0,0.8928571428571429,menos de 50 alunos
+3100500,Açucena,MG,25.0,0.88,menos de 50 alunos
+3100708,Água Comprida,MG,22.0,0.9090909090909091,menos de 50 alunos
+3101300,Alagoa,MG,29.0,1.0,menos de 50 alunos
+3101409,Albertina,MG,46.0,0.8913043478260869,menos de 50 alunos
+3102209,Alvarenga,MG,48.0,0.9583333333333334,menos de 50 alunos
+3102506,Amparo do Serra,MG,46.0,0.6304347826086957,menos de 50 alunos
+3103108,Antônio Prado de Minas,MG,17.0,0.8823529411764706,menos de 50 alunos
+3103207,Araçaí,MG,19.0,0.9473684210526315,menos de 50 alunos
+3103306,Aracitaba,MG,23.0,1.0,menos de 50 alunos
+3103603,Arantina,MG,36.0,0.7777777777777778,menos de 50 alunos
+3103801,Arapuá,MG,27.0,0.9629629629629629,menos de 50 alunos
+3104403,Argirita,MG,36.0,0.7777777777777778,menos de 50 alunos
+3105202,Bandeira,MG,40.0,1.0,menos de 50 alunos
+3105509,Barão de Monte Alto,MG,40.0,0.925,menos de 50 alunos
+3105707,Barra Longa,MG,35.0,0.9714285714285714,menos de 50 alunos
+3106101,Belmiro Braga,MG,30.0,0.9666666666666667,menos de 50 alunos
+3106655,Berizal,MG,45.0,0.9333333333333333,menos de 50 alunos
+3106804,Bias Fortes,MG,16.0,1.0,menos de 50 alunos
+3107000,Biquinhas,MG,34.0,0.8529411764705882,menos de 50 alunos
+3108701,Brás Pires,MG,38.0,0.9736842105263158,menos de 50 alunos
+3108800,Braúnas,MG,37.0,0.8378378378378378,menos de 50 alunos
+3109253,Bugre,MG,20.0,1.0,menos de 50 alunos
+3109600,Cachoeira da Prata,MG,27.0,0.9259259259259259,menos de 50 alunos
+3109808,Cachoeira Dourada,MG,23.0,0.8260869565217391,menos de 50 alunos
+3110103,Caiana,MG,31.0,0.967741935483871,menos de 50 alunos
+3110202,Cajuri,MG,46.0,1.0,menos de 50 alunos
+3110400,Camacho,MG,31.0,0.967741935483871,menos de 50 alunos
+3110806,Campanário,MG,28.0,0.9285714285714286,menos de 50 alunos
+3111150,Campo Azul,MG,42.0,0.8809523809523809,menos de 50 alunos
+3111903,Cana Verde,MG,49.0,0.9387755102040817,menos de 50 alunos
+3112059,Cantagalo,MG,38.0,0.9473684210526315,menos de 50 alunos
+3112208,Capela Nova,MG,34.0,0.9117647058823529,menos de 50 alunos
+3112653,Capitão Andrade,MG,48.0,0.8958333333333334,menos de 50 alunos
+3113107,Caranaíba,MG,13.0,0.9230769230769231,menos de 50 alunos
+3113800,Carmésia,MG,31.0,0.967741935483871,menos de 50 alunos
+3114709,Carvalhópolis,MG,31.0,0.9354838709677419,menos de 50 alunos
+3114808,Carvalhos,MG,35.0,0.9142857142857143,menos de 50 alunos
+3114907,Casa Grande,MG,17.0,1.0,menos de 50 alunos
+3115003,Cascalho Rico,MG,31.0,0.9032258064516129,menos de 50 alunos
+3115201,Conceição da Barra de Minas,MG,31.0,0.8709677419354839,menos de 50 alunos
+3115409,Catas Altas da Noruega,MG,25.0,1.0,menos de 50 alunos
+3116902,Comendador Gomes,MG,43.0,0.9069767441860465,menos de 50 alunos
+3117009,Comercinho,MG,49.0,0.9591836734693877,menos de 50 alunos
+3117207,Conceição das Pedras,MG,32.0,0.9375,menos de 50 alunos
+3117405,Conceição de Ipanema,MG,27.0,0.8888888888888888,menos de 50 alunos
+3118106,Congonhas do Norte,MG,36.0,0.9722222222222222,menos de 50 alunos
+3118502,Consolação,MG,19.0,0.9473684210526315,menos de 50 alunos
+3118908,Cordisburgo,MG,45.0,0.9777777777777777,menos de 50 alunos
+3119005,Cordislândia,MG,38.0,0.8947368421052632,menos de 50 alunos
+3119609,Coronel Pacheco,MG,32.0,0.75,menos de 50 alunos
+3119807,Córrego Danta,MG,31.0,0.9354838709677419,menos de 50 alunos
+3120003,Córrego Novo,MG,35.0,0.9142857142857143,menos de 50 alunos
+3121100,Delfim Moreira,MG,43.0,1.0,menos de 50 alunos
+3121308,Descoberto,MG,44.0,0.8636363636363636,menos de 50 alunos
+3121506,Desterro do Melo,MG,34.0,0.8529411764705882,menos de 50 alunos
+3121704,Diogo de Vasconcelos,MG,37.0,0.9459459459459459,menos de 50 alunos
+3122470,Dom Bosco,MG,31.0,0.9354838709677419,menos de 50 alunos
+3122603,Dom Joaquim,MG,46.0,0.9130434782608695,menos de 50 alunos
+3122702,Dom Silvério,MG,44.0,0.8863636363636364,menos de 50 alunos
+3122801,Dom Viçoso,MG,22.0,0.9090909090909091,menos de 50 alunos
+3123403,Doresópolis,MG,21.0,1.0,menos de 50 alunos
+3123502,Douradoquara,MG,19.0,1.0,menos de 50 alunos
+3124609,Estrela Dalva,MG,21.0,1.0,menos de 50 alunos
+3124708,Estrela do Indaiá,MG,19.0,0.9473684210526315,menos de 50 alunos
+3125200,Fama,MG,23.0,1.0,menos de 50 alunos
+3125309,Faria Lemos,MG,17.0,0.7647058823529411,menos de 50 alunos
+3125507,São Gonçalo do Rio Preto,MG,30.0,0.9666666666666667,menos de 50 alunos
+3125804,Fernandes Tourinho,MG,25.0,0.84,menos de 50 alunos
+3126307,Fortaleza de Minas,MG,48.0,0.7291666666666666,menos de 50 alunos
+3126406,Fortuna de Minas,MG,26.0,0.8461538461538461,menos de 50 alunos
+3126505,Francisco Badaró,MG,19.0,1.0,menos de 50 alunos
+3126604,Francisco Dumont,MG,16.0,1.0,menos de 50 alunos
+3126950,Frei Lagonegro,MG,23.0,1.0,menos de 50 alunos
+3127057,Fronteira dos Vales,MG,49.0,0.8979591836734694,menos de 50 alunos
+3127354,Glaucilândia,MG,15.0,0.9333333333333333,menos de 50 alunos
+3127370,Goiabeira,MG,35.0,1.0,menos de 50 alunos
+3127388,Goianá,MG,37.0,0.8378378378378378,menos de 50 alunos
+3127404,Gonçalves,MG,49.0,0.9795918367346939,menos de 50 alunos
+3127503,Gonzaga,MG,44.0,0.9090909090909091,menos de 50 alunos
+3127909,Grupiara,MG,18.0,0.9444444444444444,menos de 50 alunos
+3128501,Guarará,MG,33.0,1.0,menos de 50 alunos
+3129004,Guiricema,MG,47.0,0.8936170212765957,menos de 50 alunos
+3129103,Gurinhatã,MG,46.0,0.9347826086956522,menos de 50 alunos
+3129905,Ibitiúra de Minas,MG,35.0,0.9142857142857143,menos de 50 alunos
+3130002,Ibituruna,MG,16.0,0.75,menos de 50 alunos
+3130655,Indaiabira,MG,48.0,1.0,menos de 50 alunos
+3130804,Ingaí,MG,25.0,0.96,menos de 50 alunos
+3131406,Ipiaçu,MG,43.0,0.8837209302325582,menos de 50 alunos
+3132008,Itacambira,MG,19.0,0.9473684210526315,menos de 50 alunos
+3132602,Itamarati de Minas,MG,40.0,0.95,menos de 50 alunos
+3132800,Itambé do Mato Dentro,MG,14.0,0.8571428571428571,menos de 50 alunos
+3134509,Itutinga,MG,35.0,0.9142857142857143,menos de 50 alunos
+3135001,Jaguaraçu,MG,27.0,0.9259259259259259,menos de 50 alunos
+3135076,Jampruca,MG,39.0,0.6923076923076923,menos de 50 alunos
+3135456,Jenipapo de Minas,MG,49.0,0.8979591836734694,menos de 50 alunos
+3136108,Joanésia,MG,29.0,0.9310344827586207,menos de 50 alunos
+3136405,Joaquim Felício,MG,47.0,0.8723404255319149,menos de 50 alunos
+3136553,José Raydan,MG,35.0,0.9428571428571428,menos de 50 alunos
+3136579,Josenópolis,MG,33.0,1.0,menos de 50 alunos
+3136801,Juramento,MG,27.0,1.0,menos de 50 alunos
+3137106,Lagamar,MG,41.0,0.9024390243902439,menos de 50 alunos
+3137304,Lagoa dos Patos,MG,33.0,0.9090909090909091,menos de 50 alunos
+3137908,Lamim,MG,20.0,0.95,menos de 50 alunos
+3138302,Leandro Ferreira,MG,35.0,1.0,menos de 50 alunos
+3138500,Liberdade,MG,41.0,0.926829268292683,menos de 50 alunos
+3138708,Luminárias,MG,43.0,0.9534883720930233,menos de 50 alunos
+3140209,Maripá de Minas,MG,45.0,0.9333333333333333,menos de 50 alunos
+3140308,Marliéria,MG,33.0,0.9393939393939394,menos de 50 alunos
+3140407,Marmelópolis,MG,27.0,0.9629629629629629,menos de 50 alunos
+3140605,Materlândia,MG,46.0,0.9565217391304348,menos de 50 alunos
+3141207,Matutina,MG,44.0,0.8409090909090909,menos de 50 alunos
+3141306,Medeiros,MG,42.0,1.0,menos de 50 alunos
+3141900,Minduri,MG,38.0,0.9210526315789473,menos de 50 alunos
+3142254,Miravânia,MG,41.0,0.8780487804878049,menos de 50 alunos
+3142502,Monjolos,MG,33.0,0.9090909090909091,menos de 50 alunos
+3143153,Monte Formoso,MG,23.0,1.0,menos de 50 alunos
+3143609,Morro da Garça,MG,29.0,0.9655172413793104,menos de 50 alunos
+3143708,Morro do Pilar,MG,35.0,0.9714285714285714,menos de 50 alunos
+3144201,Nacip Raydan,MG,28.0,0.8928571428571429,menos de 50 alunos
+3144409,Natércia,MG,48.0,0.8958333333333334,menos de 50 alunos
+3144672,Nova Belém,MG,26.0,0.9615384615384616,menos de 50 alunos
+3144904,Nova Módica,MG,23.0,0.8260869565217391,menos de 50 alunos
+3145372,Novorizonte,MG,32.0,0.9375,menos de 50 alunos
+3145406,Olaria,MG,23.0,0.7391304347826086,menos de 50 alunos
+3145505,Olímpio Noronha,MG,35.0,0.8857142857142857,menos de 50 alunos
+3145703,Oliveira Fortes,MG,19.0,0.9473684210526315,menos de 50 alunos
+3145802,Onça de Pitangui,MG,14.0,0.8571428571428571,menos de 50 alunos
+3146602,Paiva,MG,15.0,0.9333333333333333,menos de 50 alunos
+3146701,Palma,MG,36.0,0.9166666666666666,menos de 50 alunos
+3147501,Passabém,MG,12.0,0.9166666666666666,menos de 50 alunos
+3147808,Passa-Vinte,MG,22.0,1.0,menos de 50 alunos
+3148400,Paulistas,MG,48.0,0.8958333333333334,menos de 50 alunos
+3148806,Pedra do Anta,MG,37.0,0.918918918918919,menos de 50 alunos
+3148905,Pedra do Indaiá,MG,36.0,0.8611111111111112,menos de 50 alunos
+3149002,Pedra Dourada,MG,35.0,1.0,menos de 50 alunos
+3149200,Pedrinópolis,MG,39.0,0.8974358974358975,menos de 50 alunos
+3149408,Pedro Teixeira,MG,13.0,1.0,menos de 50 alunos
+3149507,Pequeri,MG,42.0,1.0,menos de 50 alunos
+3150109,Piau,MG,33.0,0.9696969696969697,menos de 50 alunos
+3150208,Piedade de Ponte Nova,MG,42.0,0.8571428571428571,menos de 50 alunos
+3150901,Piranguçu,MG,42.0,0.9047619047619048,menos de 50 alunos
+3153103,Presidente Bernardes,MG,27.0,0.9259259259259259,menos de 50 alunos
+3153202,Presidente Juscelino,MG,22.0,1.0,menos de 50 alunos
+3153301,Presidente Kubitschek,MG,47.0,0.9361702127659575,menos de 50 alunos
+3153707,Quartel Geral,MG,25.0,0.76,menos de 50 alunos
+3153806,Queluzito,MG,21.0,0.9523809523809523,menos de 50 alunos
+3154408,Ressaquinha,MG,45.0,0.9555555555555556,menos de 50 alunos
+3154705,Ribeirão Vermelho,MG,42.0,0.9523809523809523,menos de 50 alunos
+3155009,Rio Doce,MG,23.0,0.9130434782608695,menos de 50 alunos
+3155207,Rio Espera,MG,31.0,0.967741935483871,menos de 50 alunos
+3155900,Rio Preto,MG,36.0,0.9444444444444444,menos de 50 alunos
+3156106,Ritápolis,MG,37.0,0.918918918918919,menos de 50 alunos
+3156205,Rochedo de Minas,MG,29.0,0.8275862068965517,menos de 50 alunos
+3156403,Romaria,MG,38.0,0.9736842105263158,menos de 50 alunos
+3156452,Rosário da Limeira,MG,30.0,0.7666666666666667,menos de 50 alunos
+3156502,Rubelita,MG,41.0,0.9024390243902439,menos de 50 alunos
+3157278,Santa Bárbara do Monte Verde,MG,30.0,0.8333333333333334,menos de 50 alunos
+3157302,Santa Bárbara do Tugúrio,MG,46.0,0.9782608695652174,menos de 50 alunos
+3157377,Santa Cruz de Salinas,MG,22.0,1.0,menos de 50 alunos
+3157401,Santa Cruz do Escalvado,MG,32.0,0.90625,menos de 50 alunos
+3157609,Santa Fé de Minas,MG,41.0,0.975609756097561,menos de 50 alunos
+3158409,Santana de Cataguases,MG,24.0,0.9583333333333334,menos de 50 alunos
+3158508,Santana de Pirapama,MG,39.0,0.9487179487179487,menos de 50 alunos
+3158607,Santana do Deserto,MG,49.0,0.7346938775510204,menos de 50 alunos
+3158706,Santana do Garambéu,MG,27.0,0.8518518518518519,menos de 50 alunos
+3158805,Santana do Jacaré,MG,48.0,0.9375,menos de 50 alunos
+3159100,Santana dos Montes,MG,20.0,0.9,menos de 50 alunos
+3159357,Santa Rita de Minas,MG,45.0,0.9333333333333333,menos de 50 alunos
+3159407,Santa Rita de Ibitipoca,MG,29.0,0.8620689655172413,menos de 50 alunos
+3160009,Santo Antônio do Aventureiro,MG,35.0,0.8857142857142857,menos de 50 alunos
+3160207,Santo Antônio do Itambé,MG,34.0,0.8529411764705882,menos de 50 alunos
+3160504,Santo Antônio do Rio Abaixo,MG,12.0,1.0,menos de 50 alunos
+3160603,Santo Hipólito,MG,15.0,1.0,menos de 50 alunos
+3160900,São Brás do Suaçuí,MG,46.0,0.9347826086956522,menos de 50 alunos
+3161056,São Félix de Minas,MG,40.0,0.825,menos de 50 alunos
+3161601,São Geraldo da Piedade,MG,30.0,1.0,menos de 50 alunos
+3161650,São Geraldo do Baixio,MG,40.0,0.95,menos de 50 alunos
+3162302,São João da Mata,MG,25.0,1.0,menos de 50 alunos
+3162658,São João do Pacuí,MG,25.0,0.88,menos de 50 alunos
+3163003,São José da Safira,MG,34.0,0.7647058823529411,menos de 50 alunos
+3163102,São José da Varginha,MG,49.0,0.9387755102040817,menos de 50 alunos
+3163300,São José do Divino,MG,44.0,0.9545454545454546,menos de 50 alunos
+3163607,São José do Mantimento,MG,33.0,0.9090909090909091,menos de 50 alunos
+3164100,São Pedro do Suaçuí,MG,44.0,0.9772727272727273,menos de 50 alunos
+3164431,São Sebastião da Vargem Alegre,MG,29.0,0.896551724137931,menos de 50 alunos
+3164506,São Sebastião do Maranhão,MG,46.0,0.9347826086956522,menos de 50 alunos
+3164803,São Sebastião do Rio Preto,MG,11.0,0.8181818181818182,menos de 50 alunos
+3164902,São Sebastião do Rio Verde,MG,24.0,0.9583333333333334,menos de 50 alunos
+3165560,Sem-Peixe,MG,13.0,1.0,menos de 50 alunos
+3165602,Senador Cortes,MG,24.0,0.9166666666666666,menos de 50 alunos
+3165800,Senador José Bento,MG,15.0,0.6666666666666666,menos de 50 alunos
+3165909,Senador Modestino Gonçalves,MG,33.0,0.9696969696969697,menos de 50 alunos
+3166105,Senhora do Porto,MG,23.0,1.0,menos de 50 alunos
+3166402,Seritinga,MG,22.0,0.9090909090909091,menos de 50 alunos
+3166501,Serra Azul de Minas,MG,31.0,0.967741935483871,menos de 50 alunos
+3166600,Serra da Saudade,MG,11.0,0.9090909090909091,menos de 50 alunos
+3166956,Serranópolis de Minas,MG,27.0,0.9629629629629629,menos de 50 alunos
+3167004,Serranos,MG,28.0,0.9285714285714286,menos de 50 alunos
+3167301,Silveirânia,MG,22.0,1.0,menos de 50 alunos
+3167509,Simão Pereira,MG,27.0,0.8888888888888888,menos de 50 alunos
+3167707,Sobrália,MG,47.0,0.851063829787234,menos de 50 alunos
+3167905,Tabuleiro,MG,48.0,0.9166666666666666,menos de 50 alunos
+3168051,Taparuba,MG,25.0,1.0,menos de 50 alunos
+3168200,Tapiraí,MG,13.0,0.8461538461538461,menos de 50 alunos
+3169059,Tocos do Moji,MG,16.0,1.0,menos de 50 alunos
+3170305,Umburatiba,MG,32.0,0.9375,menos de 50 alunos
+3170438,União de Minas,MG,40.0,0.825,menos de 50 alunos
+3170479,Uruana de Minas,MG,35.0,1.0,menos de 50 alunos
+3170602,Vargem Bonita,MG,14.0,0.9285714285714286,menos de 50 alunos
+3171105,Veríssimo,MG,38.0,0.8947368421052632,menos de 50 alunos
+3171154,Vermelho Novo,MG,44.0,1.0,menos de 50 alunos
+3171402,Vieiras,MG,42.0,0.8571428571428571,menos de 50 alunos
+3171501,Mathias Lobato,MG,49.0,0.8775510204081632,menos de 50 alunos
+3171907,Virgolândia,MG,31.0,1.0,menos de 50 alunos
+3172103,Volta Grande,MG,45.0,0.8444444444444444,menos de 50 alunos
+3172202,Wenceslau Braz,MG,29.0,0.8620689655172413,menos de 50 alunos
+5003900,Figueirão,MS,48.0,0.9166666666666666,menos de 50 alunos
+5101001,Araguaiana,MT,41.0,0.9024390243902439,menos de 50 alunos
+5101209,Araguainha,MT,12.0,0.8333333333333334,menos de 50 alunos
+5103809,Figueirópolis D'Oeste,MT,41.0,0.8780487804878049,menos de 50 alunos
+5104500,Indiavaí,MT,35.0,0.8571428571428571,menos de 50 alunos
+5105309,Luciara,MT,30.0,0.9333333333333333,menos de 50 alunos
+5106174,Nova Nazaré,MT,31.0,0.8709677419354839,menos de 50 alunos
+5106208,Nova Brasilândia,MT,49.0,0.9387755102040817,menos de 50 alunos
+5106315,Novo Santo Antônio,MT,39.0,0.9230769230769231,menos de 50 alunos
+5106703,Ponte Branca,MT,32.0,1.0,menos de 50 alunos
+5106851,Porto Estrela,MT,28.0,0.9642857142857143,menos de 50 alunos
+5107156,Reserva do Cabaçal,MT,28.0,0.8928571428571429,menos de 50 alunos
+5107198,Ribeirãozinho,MT,40.0,0.9,menos de 50 alunos
+5107263,Santo Afonso,MT,40.0,0.825,menos de 50 alunos
+5107297,São José do Povo,MT,33.0,0.9393939393939394,menos de 50 alunos
+5107743,Santa Cruz do Xingu,MT,42.0,1.0,menos de 50 alunos
+5107750,Salto do Céu,MT,42.0,0.9047619047619048,menos de 50 alunos
+5107883,Serra Nova Dourada,MT,23.0,0.8260869565217391,menos de 50 alunos
+5108105,Tesouro,MT,26.0,0.8076923076923077,menos de 50 alunos
+5108204,Torixoréu,MT,40.0,0.875,menos de 50 alunos
+5108352,Vale de São Domingos,MT,46.0,0.9130434782608695,menos de 50 alunos
+1507466,São João da Ponta,PA,39.0,0.5128205128205128,menos de 50 alunos
+2500205,Aguiar,PB,46.0,0.9782608695652174,menos de 50 alunos
+2500734,Amparo,PB,31.0,0.9354838709677419,menos de 50 alunos
+2500775,Aparecida,PB,49.0,0.9387755102040817,menos de 50 alunos
+2501153,Areia de Baraúnas,PB,22.0,1.0,menos de 50 alunos
+2501708,Barra de São Miguel,PB,48.0,0.9583333333333334,menos de 50 alunos
+2502052,Bernardino Batista,PB,36.0,0.9722222222222222,menos de 50 alunos
+2502201,Bom Jesus,PB,19.0,1.0,menos de 50 alunos
+2502300,Bom Sucesso,PB,44.0,0.8636363636363636,menos de 50 alunos
+2502706,Borborema,PB,46.0,0.8913043478260869,menos de 50 alunos
+2502904,Brejo dos Santos,PB,39.0,0.8717948717948718,menos de 50 alunos
+2503100,Cabaceiras,PB,47.0,0.8297872340425532,menos de 50 alunos
+2503407,Cacimba de Areia,PB,40.0,1.0,menos de 50 alunos
+2504074,Caraúbas,PB,44.0,0.9545454545454546,menos de 50 alunos
+2504108,Carrapateira,PB,24.0,1.0,menos de 50 alunos
+2504702,Congo,PB,37.0,0.8648648648648649,menos de 50 alunos
+2504850,Coxixola,PB,15.0,1.0,menos de 50 alunos
+2505279,Curral de Cima,PB,27.0,1.0,menos de 50 alunos
+2505303,Curral Velho,PB,16.0,1.0,menos de 50 alunos
+2505501,Vista Serrana,PB,26.0,0.9230769230769231,menos de 50 alunos
+2505600,Diamante,PB,29.0,0.9655172413793104,menos de 50 alunos
+2505808,Duas Estradas,PB,37.0,0.9459459459459459,menos de 50 alunos
+2505907,Emas,PB,21.0,1.0,menos de 50 alunos
+2506202,Frei Martinho,PB,15.0,0.9333333333333333,menos de 50 alunos
+2506251,Gado Bravo,PB,28.0,0.9642857142857143,menos de 50 alunos
+2506509,Gurjão,PB,32.0,0.90625,menos de 50 alunos
+2506608,Ibiara,PB,29.0,1.0,menos de 50 alunos
+2508109,Lagoa,PB,34.0,0.8823529411764706,menos de 50 alunos
+2508406,Lastro,PB,29.0,1.0,menos de 50 alunos
+2508554,Logradouro,PB,44.0,0.8863636363636364,menos de 50 alunos
+2508703,Mãe d'Água,PB,11.0,1.0,menos de 50 alunos
+2509339,Matinhas,PB,38.0,0.9473684210526315,menos de 50 alunos
+2509370,Mato Grosso,PB,14.0,0.7857142857142857,menos de 50 alunos
+2509602,Monte Horebe,PB,47.0,0.9574468085106383,menos de 50 alunos
+2510006,Nazarezinho,PB,46.0,0.9130434782608695,menos de 50 alunos
+2510600,Ouro Velho,PB,29.0,1.0,menos de 50 alunos
+2510709,Passagem,PB,22.0,0.9545454545454546,menos de 50 alunos
+2511004,Pedra Branca,PB,45.0,0.8888888888888888,menos de 50 alunos
+2511707,Pilõezinhos,PB,49.0,0.7755102040816326,menos de 50 alunos
+2512036,Poço Dantas,PB,47.0,0.9148936170212766,menos de 50 alunos
+2512077,Poço de José de Moura,PB,47.0,0.8723404255319149,menos de 50 alunos
+2512200,Prata,PB,44.0,0.9318181818181818,menos de 50 alunos
+2512606,Quixabá,PB,23.0,0.9565217391304348,menos de 50 alunos
+2512721,Pedro Régis,PB,43.0,0.9069767441860465,menos de 50 alunos
+2512747,Riachão,PB,27.0,0.9259259259259259,menos de 50 alunos
+2512754,Riachão do Bacamarte,PB,40.0,0.925,menos de 50 alunos
+2512762,Riachão do Poço,PB,32.0,0.84375,menos de 50 alunos
+2512788,Riacho de Santo Antônio,PB,20.0,0.9,menos de 50 alunos
+2513000,Salgadinho,PB,40.0,0.95,menos de 50 alunos
+2513109,Salgado de São Félix,PB,40.0,0.925,menos de 50 alunos
+2513356,Santa Inês,PB,29.0,0.896551724137931,menos de 50 alunos
+2513505,Santana de Mangueira,PB,44.0,0.9090909090909091,menos de 50 alunos
+2513604,Santana dos Garrotes,PB,39.0,0.9743589743589743,menos de 50 alunos
+2513653,Joca Claudino,PB,31.0,0.967741935483871,menos de 50 alunos
+2513802,Santa Teresinha,PB,40.0,0.875,menos de 50 alunos
+2513851,Santo André,PB,28.0,0.8928571428571429,menos de 50 alunos
+2513927,São Bentinho,PB,40.0,0.875,menos de 50 alunos
+2513943,São Domingos do Cariri,PB,40.0,1.0,menos de 50 alunos
+2513968,São Domingos,PB,25.0,0.88,menos de 50 alunos
+2513984,São Francisco,PB,40.0,0.975,menos de 50 alunos
+2514008,São João do Cariri,PB,42.0,0.9761904761904762,menos de 50 alunos
+2514107,São João do Tigre,PB,34.0,0.9705882352941176,menos de 50 alunos
+2514404,São José de Espinharas,PB,49.0,0.9591836734693877,menos de 50 alunos
+2514552,São José de Princesa,PB,13.0,0.8461538461538461,menos de 50 alunos
+2514602,São José do Bonfim,PB,34.0,0.9117647058823529,menos de 50 alunos
+2514651,São José do Brejo do Cruz,PB,21.0,0.9523809523809523,menos de 50 alunos
+2514701,São José do Sabugi,PB,32.0,0.96875,menos de 50 alunos
+2514800,São José dos Cordeiros,PB,22.0,0.9545454545454546,menos de 50 alunos
+2515005,São Miguel de Taipu,PB,28.0,0.8214285714285714,menos de 50 alunos
+2515203,São Sebastião do Umbuzeiro,PB,35.0,0.9428571428571428,menos de 50 alunos
+2515609,Serra da Raiz,PB,32.0,0.90625,menos de 50 alunos
+2515708,Serra Grande,PB,29.0,0.9655172413793104,menos de 50 alunos
+2515807,Serra Redonda,PB,14.0,1.0,menos de 50 alunos
+2515971,Sobrado,PB,27.0,1.0,menos de 50 alunos
+2516755,Tenório,PB,41.0,0.8536585365853658,menos de 50 alunos
+2517100,Várzea,PB,29.0,0.9310344827586207,menos de 50 alunos
+2517209,Vieirópolis,PB,41.0,0.9512195121951219,menos de 50 alunos
+2517407,Zabelê,PB,31.0,0.7741935483870968,menos de 50 alunos
+2605459,Fernando de Noronha,PE,47.0,0.9148936170212766,menos de 50 alunos
+2607406,Itacuruba,PE,35.0,1.0,menos de 50 alunos
+2200277,Alegrete do Piauí,PI,40.0,0.95,menos de 50 alunos
+2200806,Antônio Almeida,PI,42.0,1.0,menos de 50 alunos
+2200905,Aroazes,PI,32.0,0.9375,menos de 50 alunos
+2200954,Aroeiras do Itaim,PI,21.0,1.0,menos de 50 alunos
+2201176,Barra D'Alcântara,PI,44.0,1.0,menos de 50 alunos
+2201309,Barreiras do Piauí,PI,28.0,0.9642857142857143,menos de 50 alunos
+2201556,Bela Vista do Piauí,PI,39.0,0.9743589743589743,menos de 50 alunos
+2201572,Belém do Piauí,PI,26.0,1.0,menos de 50 alunos
+2201770,Boa Hora,PI,47.0,0.9574468085106383,menos de 50 alunos
+2201804,Bocaina,PI,22.0,0.9090909090909091,menos de 50 alunos
+2201919,Bom Princípio do Piauí,PI,38.0,0.9736842105263158,menos de 50 alunos
+2201988,Brejo do Piauí,PI,43.0,1.0,menos de 50 alunos
+2202075,Cajazeiras do Piauí,PI,24.0,1.0,menos de 50 alunos
+2202091,Caldeirão Grande do Piauí,PI,22.0,1.0,menos de 50 alunos
+2202109,Campinas do Piauí,PI,32.0,1.0,menos de 50 alunos
+2202117,Campo Alegre do Fidalgo,PI,38.0,0.8947368421052632,menos de 50 alunos
+2202251,Canavieira,PI,40.0,0.975,menos de 50 alunos
+2202653,Caxingó,PI,44.0,0.9772727272727273,menos de 50 alunos
+2202851,Coronel José Dias,PI,44.0,1.0,menos de 50 alunos
+2203107,Cristino Castro,PI,20.0,1.0,menos de 50 alunos
+2203230,Currais,PI,40.0,0.975,menos de 50 alunos
+2203255,Curralinhos,PI,45.0,0.9111111111111111,menos de 50 alunos
+2203420,Domingos Mourão,PI,45.0,1.0,menos de 50 alunos
+2203602,Eliseu Martins,PI,41.0,1.0,menos de 50 alunos
+2203750,Fartura do Piauí,PI,25.0,1.0,menos de 50 alunos
+2203859,Floresta do Piauí,PI,22.0,1.0,menos de 50 alunos
+2204006,Francinópolis,PI,38.0,1.0,menos de 50 alunos
+2204154,Francisco Macedo,PI,21.0,1.0,menos de 50 alunos
+2204204,Francisco Santos,PI,49.0,0.8571428571428571,menos de 50 alunos
+2204352,Geminiano,PI,47.0,0.9148936170212766,menos de 50 alunos
+2204550,Guaribas,PI,30.0,0.9666666666666667,menos de 50 alunos
+2205250,Jardim do Mulato,PI,35.0,0.9714285714285714,menos de 50 alunos
+2205276,Jatobá do Piauí,PI,42.0,0.9761904761904762,menos de 50 alunos
+2205359,João Costa,PI,35.0,0.8857142857142857,menos de 50 alunos
+2205458,Joca Marques,PI,48.0,0.9375,menos de 50 alunos
+2205516,Juazeiro do Piauí,PI,45.0,0.9555555555555556,menos de 50 alunos
+2205524,Júlio Borges,PI,15.0,0.9333333333333333,menos de 50 alunos
+2205540,Lagoinha do Piauí,PI,35.0,0.9714285714285714,menos de 50 alunos
+2205599,Lagoa do Sítio,PI,28.0,0.9642857142857143,menos de 50 alunos
+2206050,Massapê do Piauí,PI,44.0,0.9772727272727273,menos de 50 alunos
+2206308,Miguel Leão,PI,13.0,1.0,menos de 50 alunos
+2206357,Milton Brandão,PI,13.0,0.9230769230769231,menos de 50 alunos
+2206753,Nossa Senhora de Nazaré,PI,21.0,1.0,menos de 50 alunos
+2207108,Olho D'Água do Piauí,PI,21.0,1.0,menos de 50 alunos
+2207355,Pajeú do Piauí,PI,25.0,1.0,menos de 50 alunos
+2207405,Palmeira do Piauí,PI,36.0,1.0,menos de 50 alunos
+2207553,Paquetá,PI,35.0,0.9714285714285714,menos de 50 alunos
+2207751,Passagem Franca do Piauí,PI,45.0,0.9333333333333333,menos de 50 alunos
+2207777,Patos do Piauí,PI,46.0,1.0,menos de 50 alunos
+2207793,Pau D'Arco do Piauí,PI,28.0,0.9642857142857143,menos de 50 alunos
+2207850,Pavussu,PI,40.0,1.0,menos de 50 alunos
+2207934,Pedro Laurentino,PI,24.0,0.9583333333333334,menos de 50 alunos
+2208551,Porto Alegre do Piauí,PI,42.0,1.0,menos de 50 alunos
+2208874,Ribeira do Piauí,PI,31.0,1.0,menos de 50 alunos
+2209153,Santa Cruz dos Milagres,PI,46.0,0.9565217391304348,menos de 50 alunos
+2209302,Santa Luz,PI,37.0,0.918918918918919,menos de 50 alunos
+2209351,Santana do Piauí,PI,42.0,0.9523809523809523,menos de 50 alunos
+2209377,Santa Rosa do Piauí,PI,45.0,0.9777777777777777,menos de 50 alunos
+2209401,Santo Antônio de Lisboa,PI,33.0,0.9696969696969697,menos de 50 alunos
+2209450,Santo Antônio dos Milagres,PI,23.0,1.0,menos de 50 alunos
+2209500,Santo Inácio do Piauí,PI,41.0,1.0,menos de 50 alunos
+2209609,São Félix do Piauí,PI,28.0,1.0,menos de 50 alunos
+2209757,São Gonçalo do Gurguéia,PI,28.0,1.0,menos de 50 alunos
+2209856,São João da Canabrava,PI,29.0,0.9310344827586207,menos de 50 alunos
+2209955,São João da Varjota,PI,23.0,1.0,menos de 50 alunos
+2210102,São José do Peixe,PI,40.0,1.0,menos de 50 alunos
+2210201,São José do Piauí,PI,34.0,1.0,menos de 50 alunos
+2210359,São Lourenço do Piauí,PI,29.0,0.896551724137931,menos de 50 alunos
+2210375,São Luis do Piauí,PI,18.0,1.0,menos de 50 alunos
+2210383,São Miguel da Baixa Grande,PI,17.0,0.8823529411764706,menos de 50 alunos
+2210391,São Miguel do Fidalgo,PI,26.0,0.9615384615384616,menos de 50 alunos
+2210904,Socorro do Piauí,PI,27.0,0.9629629629629629,menos de 50 alunos
+2210953,Tamboril do Piauí,PI,45.0,0.9555555555555556,menos de 50 alunos
+2210979,Tanque do Piauí,PI,21.0,0.9523809523809523,menos de 50 alunos
+2211357,Várzea Branca,PI,48.0,1.0,menos de 50 alunos
+2211407,Várzea Grande,PI,42.0,1.0,menos de 50 alunos
+2211506,Vera Mendes,PI,35.0,1.0,menos de 50 alunos
+2211605,Vila Nova do Piauí,PI,20.0,1.0,menos de 50 alunos
+2211704,Wall Ferraz,PI,35.0,1.0,menos de 50 alunos
+4100459,Altamira do Paraná,PR,47.0,1.0,menos de 50 alunos
+4101051,Anahy,PR,43.0,0.7674418604651163,menos de 50 alunos
+4101150,Ângulo,PR,48.0,0.8958333333333334,menos de 50 alunos
+4101853,Ariranha do Ivaí,PR,31.0,0.8387096774193549,menos de 50 alunos
+4102703,Barra do Jacaré,PR,38.0,0.868421052631579,menos de 50 alunos
+4102752,Bela Vista da Caroba,PR,45.0,0.9111111111111111,menos de 50 alunos
+4103024,Boa Esperança do Iguaçu,PR,29.0,0.9655172413793104,menos de 50 alunos
+4103156,Bom Jesus do Sul,PR,48.0,0.875,menos de 50 alunos
+4103370,Brasilândia do Sul,PR,37.0,0.972972972972973,menos de 50 alunos
+4103404,Cafeara,PR,36.0,0.9166666666666666,menos de 50 alunos
+4106571,Cruzeiro do Iguaçu,PR,46.0,0.8260869565217391,menos de 50 alunos
+4106852,Cruzmaltina,PR,38.0,0.9473684210526315,menos de 50 alunos
+4107124,Diamante do Sul,PR,38.0,0.9473684210526315,menos de 50 alunos
+4107520,Esperança Nova,PR,32.0,0.96875,menos de 50 alunos
+4107702,Fênix,PR,47.0,0.8936170212765957,menos de 50 alunos
+4108106,Flórida,PR,28.0,0.8571428571428571,menos de 50 alunos
+4108551,Godoy Moreira,PR,27.0,1.0,menos de 50 alunos
+4109104,Guaporema,PR,19.0,0.9473684210526315,menos de 50 alunos
+4109203,Guaraci,PR,48.0,0.9166666666666666,menos de 50 alunos
+4110052,Iguatu,PR,25.0,0.92,menos de 50 alunos
+4110300,Inajá,PR,35.0,0.9428571428571428,menos de 50 alunos
+4110656,Iracema do Oeste,PR,28.0,0.9642857142857143,menos de 50 alunos
+4111308,Itaúna do Sul,PR,47.0,0.851063829787234,menos de 50 alunos
+4111605,Ivatuba,PR,31.0,0.9354838709677419,menos de 50 alunos
+4112603,Jardim Olinda,PR,13.0,1.0,menos de 50 alunos
+4112900,Jundiaí do Sul,PR,48.0,0.9791666666666666,menos de 50 alunos
+4113106,Kaloré,PR,42.0,0.9761904761904762,menos de 50 alunos
+4113403,Leópolis,PR,43.0,0.9069767441860465,menos de 50 alunos
+4113809,Lupionópolis,PR,33.0,0.9696969696969697,menos de 50 alunos
+4114351,Manfrinópolis,PR,34.0,0.9117647058823529,menos de 50 alunos
+4115507,Marumbi,PR,49.0,0.8571428571428571,menos de 50 alunos
+4115739,Mato Rico,PR,39.0,0.6923076923076923,menos de 50 alunos
+4115903,Mirador,PR,28.0,0.8928571428571429,menos de 50 alunos
+4116000,Miraselva,PR,32.0,0.90625,menos de 50 alunos
+4116406,Nossa Senhora das Graças,PR,44.0,0.8863636363636364,menos de 50 alunos
+4116505,Nova Aliança do Ivaí,PR,17.0,0.9411764705882353,menos de 50 alunos
+4116604,Nova América da Colina,PR,39.0,0.8461538461538461,menos de 50 alunos
+4117271,Nova Tebas,PR,43.0,0.9534883720930233,menos de 50 alunos
+4117297,Novo Itacolomi,PR,37.0,0.9459459459459459,menos de 50 alunos
+4117404,Ourizona,PR,48.0,0.8333333333333334,menos de 50 alunos
+4118303,Paranapoema,PR,40.0,0.975,menos de 50 alunos
+4119251,Pinhal de São Bento,PR,35.0,0.9714285714285714,menos de 50 alunos
+4119657,Pitangueiras,PR,38.0,0.9210526315789473,menos de 50 alunos
+4120150,Porto Barreiro,PR,31.0,0.9032258064516129,menos de 50 alunos
+4120309,Porto Vitória,PR,40.0,1.0,menos de 50 alunos
+4120655,Quarto Centenário,PR,42.0,0.8809523809523809,menos de 50 alunos
+4121356,Rancho Alegre D'Oeste,PR,28.0,0.8214285714285714,menos de 50 alunos
+4122107,Rio Bom,PR,39.0,0.9230769230769231,menos de 50 alunos
+4122172,Rio Branco do Ivaí,PR,49.0,0.8979591836734694,menos de 50 alunos
+4123105,Santa Amélia,PR,38.0,0.9210526315789473,menos de 50 alunos
+4123204,Santa Cecília do Pavão,PR,38.0,0.9210526315789473,menos de 50 alunos
+4123600,Santa Inês,PR,17.0,0.8823529411764706,menos de 50 alunos
+4123824,Santa Lúcia,PR,49.0,0.8571428571428571,menos de 50 alunos
+4123956,Santa Mônica,PR,49.0,0.9183673469387755,menos de 50 alunos
+4124202,Santo Antônio do Caiuá,PR,35.0,0.9714285714285714,menos de 50 alunos
+4124301,Santo Antônio do Paraíso,PR,28.0,0.9642857142857143,menos de 50 alunos
+4125555,São Manoel do Paraná,PR,26.0,1.0,menos de 50 alunos
+4125902,São Pedro do Paraná,PR,18.0,0.8888888888888888,menos de 50 alunos
+4126652,Sulina,PR,39.0,0.9487179487179487,menos de 50 alunos
+4126900,Tapira,PR,49.0,0.8979591836734694,menos de 50 alunos
+4128302,Uniflor,PR,18.0,0.8333333333333334,menos de 50 alunos
+3305133,São José de Ubá,RJ,41.0,0.8780487804878049,menos de 50 alunos
+2400406,Água Nova,RN,33.0,0.8787878787878788,menos de 50 alunos
+2401503,Barcelona,RN,28.0,0.75,menos de 50 alunos
+2401651,Bodó,RN,12.0,0.8333333333333334,menos de 50 alunos
+2402808,Coronel Ezequiel,RN,45.0,0.8888888888888888,menos de 50 alunos
+2402907,Coronel João Pessoa,RN,46.0,0.8695652173913043,menos de 50 alunos
+2403756,Fernando Pedroza,RN,34.0,0.8529411764705882,menos de 50 alunos
+2403905,Francisco Dantas,RN,21.0,0.9047619047619048,menos de 50 alunos
+2404101,Galinhos,RN,42.0,0.8333333333333334,menos de 50 alunos
+2404804,Ipueira,RN,13.0,0.6923076923076923,menos de 50 alunos
+2405207,Janduís,RN,44.0,0.9772727272727273,menos de 50 alunos
+2405504,Jardim de Angicos,RN,45.0,0.8444444444444444,menos de 50 alunos
+2405900,João Dias,RN,22.0,0.8181818181818182,menos de 50 alunos
+2406007,José da Penha,RN,48.0,0.875,menos de 50 alunos
+2406155,Jundiá,RN,19.0,0.7894736842105263,menos de 50 alunos
+2406403,Lagoa de Velhos,RN,34.0,0.7941176470588235,menos de 50 alunos
+2406809,Lajes Pintadas,RN,38.0,0.8421052631578947,menos de 50 alunos
+2406908,Lucrécia,RN,25.0,0.84,menos de 50 alunos
+2407302,Marcelino Vieira,RN,42.0,0.9047619047619048,menos de 50 alunos
+2407609,Messias Targino,RN,49.0,0.7755102040816326,menos de 50 alunos
+2407906,Monte das Gameleiras,RN,34.0,0.9117647058823529,menos de 50 alunos
+2408409,Olho-d'Água do Borges,RN,13.0,1.0,menos de 50 alunos
+2408607,Paraná,RN,39.0,0.8974358974358975,menos de 50 alunos
+2408706,Paraú,RN,20.0,0.7,menos de 50 alunos
+2409209,Passagem,RN,32.0,0.75,menos de 50 alunos
+2409332,Santa Maria,RN,38.0,0.6052631578947368,menos de 50 alunos
+2409605,Pedra Preta,RN,17.0,0.9411764705882353,menos de 50 alunos
+2409704,Pedro Avelino,RN,39.0,0.9230769230769231,menos de 50 alunos
+2410009,Pilões,RN,19.0,1.0,menos de 50 alunos
+2410256,Porto do Mangue,RN,49.0,0.8163265306122449,menos de 50 alunos
+2410504,Rafael Fernandes,RN,40.0,0.825,menos de 50 alunos
+2410603,Rafael Godeiro,RN,22.0,0.8636363636363636,menos de 50 alunos
+2410702,Riacho da Cruz,RN,20.0,0.8,menos de 50 alunos
+2410801,Riacho de Santana,RN,38.0,0.8157894736842105,menos de 50 alunos
+2411106,Ruy Barbosa,RN,27.0,0.7407407407407407,menos de 50 alunos
+2411429,Santana do Seridó,RN,27.0,0.8148148148148148,menos de 50 alunos
+2411700,São Bento do Trairí,RN,48.0,0.875,menos de 50 alunos
+2411809,São Fernando,RN,39.0,0.6923076923076923,menos de 50 alunos
+2412401,São José do Seridó,RN,40.0,0.9,menos de 50 alunos
+2412708,São Pedro,RN,42.0,0.6904761904761905,menos de 50 alunos
+2413557,Serrinha dos Pintos,RN,49.0,0.8775510204081632,menos de 50 alunos
+2413706,Sítio Novo,RN,42.0,0.9285714285714286,menos de 50 alunos
+2413805,Taboleiro Grande,RN,28.0,0.8928571428571429,menos de 50 alunos
+2414308,Timbaúba dos Batistas,RN,15.0,1.0,menos de 50 alunos
+2414456,Triunfo Potiguar,RN,46.0,0.8043478260869565,menos de 50 alunos
+2414506,Umarizal,RN,38.0,0.7894736842105263,menos de 50 alunos
+2414704,Várzea,RN,45.0,0.7777777777777778,menos de 50 alunos
+2414753,Venha-Ver,RN,13.0,1.0,menos de 50 alunos
+2414902,Viçosa,RN,22.0,0.9545454545454546,menos de 50 alunos
+1101468,Pimenteiras do Oeste,RO,43.0,0.8372093023255814,menos de 50 alunos
+4300059,Água Santa,RS,31.0,0.9354838709677419,menos de 50 alunos
+4300208,Ajuricaba,RS,48.0,0.9583333333333334,menos de 50 alunos
+4300455,Alegria,RS,37.0,0.8918918918918919,menos de 50 alunos
+4300471,Almirante Tamandaré do Sul,RS,11.0,1.0,menos de 50 alunos
+4300554,Alto Alegre,RS,11.0,1.0,menos de 50 alunos
+4300570,Alto Feliz,RS,38.0,0.8157894736842105,menos de 50 alunos
+4300638,Amaral Ferrador,RS,48.0,0.8541666666666666,menos de 50 alunos
+4300661,André da Rocha,RS,19.0,0.7894736842105263,menos de 50 alunos
+4300703,Anta Gorda,RS,33.0,0.9393939393939394,menos de 50 alunos
+4300851,Arambaré,RS,26.0,0.7692307692307693,menos de 50 alunos
+4301073,Arroio do Padre,RS,26.0,0.8461538461538461,menos de 50 alunos
+4301503,Augusto Pestana,RS,31.0,0.9354838709677419,menos de 50 alunos
+4301552,Áurea,RS,28.0,0.9642857142857143,menos de 50 alunos
+4301651,Barão,RS,38.0,0.8421052631578947,menos de 50 alunos
+4301750,Barão do Triunfo,RS,27.0,0.9259259259259259,menos de 50 alunos
+4301800,Barracão,RS,46.0,0.9347826086956522,menos de 50 alunos
+4301859,Barra do Guarita,RS,16.0,0.75,menos de 50 alunos
+4301958,Barra Funda,RS,24.0,0.9583333333333334,menos de 50 alunos
+4302220,Boa Vista do Cadeado,RS,21.0,0.8571428571428571,menos de 50 alunos
+4302238,Boa Vista do Incra,RS,24.0,0.9583333333333334,menos de 50 alunos
+4302253,Boa Vista do Sul,RS,27.0,0.8888888888888888,menos de 50 alunos
+4302378,Bom Progresso,RS,16.0,0.875,menos de 50 alunos
+4302451,Boqueirão do Leão,RS,24.0,0.8333333333333334,menos de 50 alunos
+4302501,Bossoroca,RS,48.0,0.9166666666666666,menos de 50 alunos
+4302584,Bozano,RS,22.0,1.0,menos de 50 alunos
+4302600,Braga,RS,35.0,0.9428571428571428,menos de 50 alunos
+4303202,Cacique Doble,RS,24.0,0.7916666666666666,menos de 50 alunos
+4303301,Caibaté,RS,25.0,0.96,menos de 50 alunos
+4303400,Caiçara,RS,24.0,0.8333333333333334,menos de 50 alunos
+4303558,Camargo,RS,36.0,1.0,menos de 50 alunos
+4303608,Cambará do Sul,RS,46.0,0.8478260869565217,menos de 50 alunos
+4303673,Campestre da Serra,RS,24.0,0.875,menos de 50 alunos
+4303707,Campina das Missões,RS,45.0,0.9777777777777777,menos de 50 alunos
+4303806,Campinas do Sul,RS,48.0,1.0,menos de 50 alunos
+4304101,Campos Borges,RS,48.0,0.8958333333333334,menos de 50 alunos
+4304622,Capão Bonito do Sul,RS,21.0,0.7142857142857143,menos de 50 alunos
+4304655,Capão do Cipó,RS,25.0,0.84,menos de 50 alunos
+4304671,Capivari do Sul,RS,44.0,0.8181818181818182,menos de 50 alunos
+4304697,Capitão,RS,39.0,0.8461538461538461,menos de 50 alunos
+4304853,Carlos Gomes,RS,12.0,1.0,menos de 50 alunos
+4304952,Caseiros,RS,25.0,0.8,menos de 50 alunos
+4305116,Centenário,RS,25.0,1.0,menos de 50 alunos
+4305124,Cerrito,RS,47.0,0.8723404255319149,menos de 50 alunos
+4305132,Cerro Branco,RS,13.0,0.9230769230769231,menos de 50 alunos
+4305157,Cerro Grande,RS,26.0,0.7692307692307693,menos de 50 alunos
+4305371,Charrua,RS,12.0,0.5833333333333334,menos de 50 alunos
+4305405,Chiapetta,RS,33.0,0.9696969696969697,menos de 50 alunos
+4305439,Chuí,RS,37.0,0.8918918918918919,menos de 50 alunos
+4305447,Chuvisca,RS,48.0,0.8541666666666666,menos de 50 alunos
+4305504,Ciríaco,RS,34.0,0.9117647058823529,menos de 50 alunos
+4305587,Colinas,RS,29.0,0.8620689655172413,menos de 50 alunos
+4305603,Colorado,RS,27.0,1.0,menos de 50 alunos
+4305850,Coqueiros do Sul,RS,15.0,0.8,menos de 50 alunos
+4305871,Coronel Barros,RS,35.0,0.8857142857142857,menos de 50 alunos
+4305959,Cotiporã,RS,36.0,0.9444444444444444,menos de 50 alunos
+4305975,Coxilha,RS,45.0,0.8888888888888888,menos de 50 alunos
+4306072,Cristal do Sul,RS,14.0,1.0,menos de 50 alunos
+4306130,Cruzaltense,RS,14.0,1.0,menos de 50 alunos
+4306304,David Canabarro,RS,42.0,0.9761904761904762,menos de 50 alunos
+4306320,Derrubadas,RS,20.0,1.0,menos de 50 alunos
+4306379,Dilermando de Aguiar,RS,28.0,0.9642857142857143,menos de 50 alunos
+4306452,Dois Lajeados,RS,40.0,0.9,menos de 50 alunos
+4306551,Dom Pedro de Alcântara,RS,18.0,0.7777777777777778,menos de 50 alunos
+4306700,Dona Francisca,RS,16.0,0.9375,menos de 50 alunos
+4306734,Doutor Maurício Cardoso,RS,43.0,0.9534883720930233,menos de 50 alunos
+4306759,Doutor Ricardo,RS,15.0,1.0,menos de 50 alunos
+4306924,Engenho Velho,RS,17.0,1.0,menos de 50 alunos
+4306957,Entre Rios do Sul,RS,35.0,0.9428571428571428,menos de 50 alunos
+4306973,Erebango,RS,31.0,0.9354838709677419,menos de 50 alunos
+4307054,Ernestina,RS,20.0,0.85,menos de 50 alunos
+4307302,Erval Seco,RS,33.0,0.9696969696969697,menos de 50 alunos
+4307401,Esmeralda,RS,44.0,0.8409090909090909,menos de 50 alunos
+4307450,Esperança do Sul,RS,36.0,0.9722222222222222,menos de 50 alunos
+4307815,Estrela Velha,RS,25.0,1.0,menos de 50 alunos
+4307831,Eugênio de Castro,RS,14.0,1.0,menos de 50 alunos
+4307864,Fagundes Varela,RS,31.0,0.8387096774193549,menos de 50 alunos
+4308003,Faxinal do Soturno,RS,40.0,0.875,menos de 50 alunos
+4308052,Faxinalzinho,RS,19.0,0.7368421052631579,menos de 50 alunos
+4308250,Floriano Peixoto,RS,10.0,0.7,menos de 50 alunos
+4308409,Formigueiro,RS,46.0,0.9565217391304348,menos de 50 alunos
+4308433,Forquetinha,RS,23.0,0.8695652173913043,menos de 50 alunos
+4308458,Fortaleza dos Valos,RS,24.0,0.9166666666666666,menos de 50 alunos
+4308706,Gaurama,RS,48.0,0.9791666666666666,menos de 50 alunos
+4308805,General Câmara,RS,48.0,0.8125,menos de 50 alunos
+4308854,Gentil,RS,15.0,0.9333333333333333,menos de 50 alunos
+4309126,Gramado dos Loureiros,RS,10.0,0.8,menos de 50 alunos
+4309159,Gramado Xavier,RS,10.0,0.8,menos de 50 alunos
+4309258,Guabiju,RS,15.0,1.0,menos de 50 alunos
+4309571,Herveiras,RS,17.0,1.0,menos de 50 alunos
+4309753,Ibarama,RS,47.0,0.8723404255319149,menos de 50 alunos
+4309803,Ibiaçá,RS,37.0,0.9459459459459459,menos de 50 alunos
+4309951,Ibirapuitã,RS,32.0,0.90625,menos de 50 alunos
+4310306,Ilópolis,RS,31.0,0.9354838709677419,menos de 50 alunos
+4310363,Imigrante,RS,13.0,0.9230769230769231,menos de 50 alunos
+4310413,Inhacorá,RS,22.0,0.7727272727272727,menos de 50 alunos
+4310462,Ipiranga do Sul,RS,18.0,1.0,menos de 50 alunos
+4310553,Itacurubi,RS,22.0,0.45454545454545453,menos de 50 alunos
+4310579,Itapuca,RS,17.0,1.0,menos de 50 alunos
+4310652,Itati,RS,33.0,0.9696969696969697,menos de 50 alunos
+4310702,Itatiba do Sul,RS,32.0,0.90625,menos de 50 alunos
+4310751,Ivorá,RS,16.0,0.9375,menos de 50 alunos
+4310850,Jaboticaba,RS,35.0,1.0,menos de 50 alunos
+4310900,Jacutinga,RS,21.0,1.0,menos de 50 alunos
+4311130,Jari,RS,25.0,0.84,menos de 50 alunos
+4311155,Jóia,RS,41.0,0.975609756097561,menos de 50 alunos
+4311239,Lagoa Bonita do Sul,RS,12.0,0.9166666666666666,menos de 50 alunos
+4311254,Lagoão,RS,38.0,0.9210526315789473,menos de 50 alunos
+4311270,Lagoa dos Três Cantos,RS,26.0,0.9615384615384616,menos de 50 alunos
+4311429,Lajeado do Bugre,RS,25.0,0.96,menos de 50 alunos
+4311601,Liberato Salzano,RS,35.0,0.9714285714285714,menos de 50 alunos
+4311643,Linha Nova,RS,17.0,1.0,menos de 50 alunos
+4311734,Mampituba,RS,38.0,0.9473684210526315,menos de 50 alunos
+4311791,Maratá,RS,26.0,0.9615384615384616,menos de 50 alunos
+4311908,Marcelino Ramos,RS,34.0,0.9117647058823529,menos de 50 alunos
+4311981,Mariana Pimentel,RS,32.0,0.625,menos de 50 alunos
+4312005,Mariano Moro,RS,16.0,0.75,menos de 50 alunos
+4312054,Marques de Souza,RS,28.0,0.8928571428571429,menos de 50 alunos
+4312104,Mata,RS,26.0,0.8461538461538461,menos de 50 alunos
+4312138,Mato Castelhano,RS,31.0,0.9032258064516129,menos de 50 alunos
+4312179,Mato Queimado,RS,13.0,0.9230769230769231,menos de 50 alunos
+4312203,Maximiliano de Almeida,RS,37.0,1.0,menos de 50 alunos
+4312351,Montauri,RS,12.0,1.0,menos de 50 alunos
+4312377,Monte Alegre dos Campos,RS,42.0,0.7857142857142857,menos de 50 alunos
+4312385,Monte Belo do Sul,RS,13.0,1.0,menos de 50 alunos
+4312427,Mormaço,RS,18.0,0.9444444444444444,menos de 50 alunos
+4312443,Morrinhos do Sul,RS,33.0,0.9090909090909091,menos de 50 alunos
+4312476,Morro Reuter,RS,35.0,0.9428571428571428,menos de 50 alunos
+4312609,Muçum,RS,45.0,0.8444444444444444,menos de 50 alunos
+4312617,Muitos Capões,RS,39.0,0.9230769230769231,menos de 50 alunos
+4312625,Muliterno,RS,13.0,1.0,menos de 50 alunos
+4312757,Nova Alvorada,RS,37.0,0.918918918918919,menos de 50 alunos
+4312955,Nova Boa Vista,RS,28.0,0.8571428571428571,menos de 50 alunos
+4313003,Nova Bréscia,RS,20.0,0.9,menos de 50 alunos
+4313011,Nova Candelária,RS,35.0,1.0,menos de 50 alunos
+4313086,Nova Pádua,RS,20.0,0.95,menos de 50 alunos
+4313102,Nova Palma,RS,42.0,0.8333333333333334,menos de 50 alunos
+4313334,Nova Ramada,RS,26.0,0.9615384615384616,menos de 50 alunos
+4313359,Nova Roma do Sul,RS,31.0,0.967741935483871,menos de 50 alunos
+4313391,Novo Cabrais,RS,40.0,0.975,menos de 50 alunos
+4313425,Novo Machado,RS,10.0,1.0,menos de 50 alunos
+4313441,Novo Tiradentes,RS,19.0,1.0,menos de 50 alunos
+4313490,Novo Barreiro,RS,39.0,0.8974358974358975,menos de 50 alunos
+4313607,Paim Filho,RS,32.0,0.9375,menos de 50 alunos
+4314027,Paraíso do Sul,RS,39.0,0.8461538461538461,menos de 50 alunos
+4314068,Passa Sete,RS,16.0,1.0,menos de 50 alunos
+4314134,Paulo Bento,RS,21.0,0.9523809523809523,menos de 50 alunos
+4314175,Pedras Altas,RS,23.0,0.8695652173913043,menos de 50 alunos
+4314308,Pejuçara,RS,43.0,1.0,menos de 50 alunos
+4314456,Pinhal,RS,25.0,0.96,menos de 50 alunos
+4314464,Pinhal da Serra,RS,20.0,0.85,menos de 50 alunos
+4314472,Pinhal Grande,RS,45.0,0.9111111111111111,menos de 50 alunos
+4314498,Pinheirinho do Vale,RS,42.0,0.9523809523809523,menos de 50 alunos
+4314555,Pirapó,RS,11.0,1.0,menos de 50 alunos
+4314753,Poço das Antas,RS,25.0,0.96,menos de 50 alunos
+4314779,Pontão,RS,36.0,0.6111111111111112,menos de 50 alunos
+4314787,Ponte Preta,RS,19.0,1.0,menos de 50 alunos
+4315008,Porto Lucena,RS,35.0,0.9142857142857143,menos de 50 alunos
+4315057,Porto Mauá,RS,25.0,0.88,menos de 50 alunos
+4315073,Porto Vera Cruz,RS,17.0,1.0,menos de 50 alunos
+4315131,Pouso Novo,RS,18.0,0.9444444444444444,menos de 50 alunos
+4315156,Progresso,RS,22.0,0.9090909090909091,menos de 50 alunos
+4315172,Protásio Alves,RS,19.0,0.8421052631578947,menos de 50 alunos
+4315206,Putinga,RS,31.0,0.9354838709677419,menos de 50 alunos
+4315313,Quatro Irmãos,RS,19.0,0.7894736842105263,menos de 50 alunos
+4315321,Quevedos,RS,12.0,0.6666666666666666,menos de 50 alunos
+4315354,Quinze de Novembro,RS,42.0,0.9523809523809523,menos de 50 alunos
+4315552,Rio dos Índios,RS,25.0,0.96,menos de 50 alunos
+4315750,Riozinho,RS,29.0,1.0,menos de 50 alunos
+4316204,Rondinha,RS,34.0,0.9411764705882353,menos de 50 alunos
+4316303,Roque Gonzales,RS,40.0,0.85,menos de 50 alunos
+4316428,Sagrada Família,RS,16.0,1.0,menos de 50 alunos
+4316436,Saldanha Marinho,RS,23.0,1.0,menos de 50 alunos
+4316477,Salvador das Missões,RS,38.0,0.9473684210526315,menos de 50 alunos
+4316733,Santa Cecília do Sul,RS,23.0,0.9565217391304348,menos de 50 alunos
+4316956,Santa Maria do Herval,RS,39.0,0.9487179487179487,menos de 50 alunos
+4316972,Santa Margarida do Sul,RS,37.0,0.9459459459459459,menos de 50 alunos
+4317004,Santana da Boa Vista,RS,49.0,0.8571428571428571,menos de 50 alunos
+4317558,Santo Antônio do Palma,RS,26.0,1.0,menos de 50 alunos
+4317756,Santo Antônio do Planalto,RS,23.0,0.9565217391304348,menos de 50 alunos
+4317954,Santo Expedito do Sul,RS,25.0,0.92,menos de 50 alunos
+4318051,São Domingos do Sul,RS,24.0,0.8333333333333334,menos de 50 alunos
+4318432,São João do Polêsine,RS,15.0,0.8666666666666667,menos de 50 alunos
+4318440,São Jorge,RS,19.0,0.9473684210526315,menos de 50 alunos
+4318457,São José das Missões,RS,25.0,0.72,menos de 50 alunos
+4318465,São José do Herval,RS,11.0,0.8181818181818182,menos de 50 alunos
+4318481,São José do Hortêncio,RS,32.0,1.0,menos de 50 alunos
+4318499,São José do Inhacorá,RS,25.0,0.96,menos de 50 alunos
+4318614,São José do Sul,RS,18.0,0.8888888888888888,menos de 50 alunos
+4319125,São Martinho da Serra,RS,35.0,0.8857142857142857,menos de 50 alunos
+4319208,São Nicolau,RS,46.0,0.8913043478260869,menos de 50 alunos
+4319307,São Paulo das Missões,RS,38.0,0.8947368421052632,menos de 50 alunos
+4319364,São Pedro das Missões,RS,11.0,0.9090909090909091,menos de 50 alunos
+4319372,São Pedro do Butiá,RS,26.0,0.9615384615384616,menos de 50 alunos
+4319703,São Valentim,RS,26.0,0.8846153846153846,menos de 50 alunos
+4319711,São Valentim do Sul,RS,15.0,1.0,menos de 50 alunos
+4319737,São Valério do Sul,RS,13.0,1.0,menos de 50 alunos
+4319752,São Vendelino,RS,31.0,1.0,menos de 50 alunos
+4320230,Sede Nova,RS,21.0,0.9047619047619048,menos de 50 alunos
+4320321,Senador Salgado Filho,RS,25.0,0.96,menos de 50 alunos
+4320354,Sentinela do Sul,RS,35.0,0.8571428571428571,menos de 50 alunos
+4320453,Sério,RS,18.0,1.0,menos de 50 alunos
+4320503,Sertão,RS,29.0,0.9655172413793104,menos de 50 alunos
+4320552,Sertão Santana,RS,13.0,1.0,menos de 50 alunos
+4320578,Sete de Setembro,RS,13.0,0.9230769230769231,menos de 50 alunos
+4320602,Severiano de Almeida,RS,31.0,1.0,menos de 50 alunos
+4320651,Silveira Martins,RS,20.0,0.7,menos de 50 alunos
+4321329,Taquaruçu do Sul,RS,41.0,1.0,menos de 50 alunos
+4321352,Tavares,RS,45.0,0.8666666666666667,menos de 50 alunos
+4321469,Tio Hugo,RS,34.0,0.9705882352941176,menos de 50 alunos
+4321477,Tiradentes do Sul,RS,12.0,1.0,menos de 50 alunos
+4321493,Toropi,RS,17.0,0.9411764705882353,menos de 50 alunos
+4321626,Travesseiro,RS,26.0,0.7307692307692307,menos de 50 alunos
+4321634,Três Arroios,RS,15.0,1.0,menos de 50 alunos
+4321832,Três Forquilhas,RS,27.0,0.8888888888888888,menos de 50 alunos
+4322152,Tunas,RS,24.0,0.9166666666666666,menos de 50 alunos
+4322327,Turuçu,RS,44.0,0.8863636363636364,menos de 50 alunos
+4322343,Ubiretama,RS,10.0,0.9,menos de 50 alunos
+4322376,Unistalda,RS,24.0,0.875,menos de 50 alunos
+4322525,Vale Verde,RS,36.0,0.8333333333333334,menos de 50 alunos
+4322558,Vanini,RS,17.0,0.7647058823529411,menos de 50 alunos
+4322855,Vespasiano Correa,RS,16.0,0.9375,menos de 50 alunos
+4322905,Viadutos,RS,37.0,0.972972972972973,menos de 50 alunos
+4323101,Vicente Dutra,RS,41.0,0.9024390243902439,menos de 50 alunos
+4323200,Victor Graeff,RS,18.0,0.8888888888888888,menos de 50 alunos
+4323309,Vila Flores,RS,30.0,0.8666666666666667,menos de 50 alunos
+4323358,Vila Lângaro,RS,17.0,1.0,menos de 50 alunos
+4323408,Vila Maria,RS,34.0,0.9705882352941176,menos de 50 alunos
+4323457,Vila Nova do Sul,RS,35.0,0.9142857142857143,menos de 50 alunos
+4323507,Vista Alegre,RS,23.0,0.9565217391304348,menos de 50 alunos
+4323606,Vista Alegre do Prata,RS,14.0,1.0,menos de 50 alunos
+4323705,Vista Gaúcha,RS,12.0,0.8333333333333334,menos de 50 alunos
+4323754,Vitória das Missões,RS,13.0,1.0,menos de 50 alunos
+4323770,Westfalia,RS,27.0,0.9629629629629629,menos de 50 alunos
+4200051,Abdon Batista,SC,40.0,0.975,menos de 50 alunos
+4200556,Águas Frias,SC,17.0,1.0,menos de 50 alunos
+4200754,Alto Bela Vista,SC,29.0,0.9310344827586207,menos de 50 alunos
+4200903,Angelina,SC,47.0,0.851063829787234,menos de 50 alunos
+4201109,Anitápolis,SC,30.0,0.8666666666666667,menos de 50 alunos
+4201653,Arvoredo,SC,34.0,0.7647058823529411,menos de 50 alunos
+4202081,Bandeirante,SC,49.0,0.9183673469387755,menos de 50 alunos
+4202099,Barra Bonita,SC,20.0,0.9,menos de 50 alunos
+4202156,Belmonte,SC,37.0,0.9459459459459459,menos de 50 alunos
+4202537,Bom Jesus,SC,44.0,0.9090909090909091,menos de 50 alunos
+4202578,Bom Jesus do Oeste,SC,27.0,0.8888888888888888,menos de 50 alunos
+4202875,Brunópolis,SC,30.0,0.9,menos de 50 alunos
+4204103,Caxambu do Sul,SC,49.0,0.9387755102040817,menos de 50 alunos
+4204152,Celso Ramos,SC,49.0,0.9183673469387755,menos de 50 alunos
+4204178,Cerro Negro,SC,30.0,0.8666666666666667,menos de 50 alunos
+4204459,Coronel Martins,SC,32.0,0.96875,menos de 50 alunos
+4204756,Cunhataí,SC,14.0,0.5714285714285714,menos de 50 alunos
+4205159,Doutor Pedrinho,SC,40.0,0.95,menos de 50 alunos
+4205357,Flor do Sertão,SC,26.0,0.9230769230769231,menos de 50 alunos
+4205431,Formosa do Sul,SC,36.0,0.8333333333333334,menos de 50 alunos
+4205555,Frei Rogério,SC,32.0,0.65625,menos de 50 alunos
+4206751,Ibiam,SC,28.0,0.9642857142857143,menos de 50 alunos
+4206801,Ibicaré,SC,42.0,0.8333333333333334,menos de 50 alunos
+4207577,Iomerê,SC,43.0,0.7674418604651163,menos de 50 alunos
+4207759,Iraceminha,SC,34.0,0.9705882352941176,menos de 50 alunos
+4207858,Irati,SC,28.0,0.8928571428571429,menos de 50 alunos
+4208609,Jaborá,SC,48.0,0.8333333333333334,menos de 50 alunos
+4208955,Jardinópolis,SC,20.0,0.85,menos de 50 alunos
+4209177,Jupiá,SC,36.0,0.5277777777777778,menos de 50 alunos
+4209201,Lacerdópolis,SC,38.0,0.9473684210526315,menos de 50 alunos
+4209458,Lajeado Grande,SC,35.0,0.8571428571428571,menos de 50 alunos
+4209805,Leoberto Leal,SC,24.0,1.0,menos de 50 alunos
+4210050,Macieira,SC,19.0,0.8421052631578947,menos de 50 alunos
+4210209,Major Gercino,SC,27.0,0.8148148148148148,menos de 50 alunos
+4210555,Marema,SC,23.0,0.8695652173913043,menos de 50 alunos
+4210852,Mirim Doce,SC,34.0,0.7941176470588235,menos de 50 alunos
+4210902,Modelo,SC,46.0,0.8913043478260869,menos de 50 alunos
+4211256,Morro Grande,SC,43.0,0.8837209302325582,menos de 50 alunos
+4211652,Novo Horizonte,SC,29.0,0.7931034482758621,menos de 50 alunos
+4211850,Ouro Verde,SC,17.0,0.8823529411764706,menos de 50 alunos
+4211876,Paial,SC,28.0,0.7857142857142857,menos de 50 alunos
+4211892,Painel,SC,31.0,0.8064516129032258,menos de 50 alunos
+4212056,Palmeira,SC,30.0,0.9333333333333333,menos de 50 alunos
+4212239,Paraíso,SC,38.0,0.8157894736842105,menos de 50 alunos
+4212403,Pedras Grandes,SC,39.0,0.7692307692307693,menos de 50 alunos
+4212601,Peritiba,SC,28.0,0.8571428571428571,menos de 50 alunos
+4213153,Planalto Alegre,SC,39.0,0.8205128205128205,menos de 50 alunos
+4213906,Presidente Castello Branco,SC,22.0,0.9545454545454546,menos de 50 alunos
+4214102,Presidente Nereu,SC,40.0,0.9,menos de 50 alunos
+4214151,Princesa,SC,41.0,0.8780487804878049,menos de 50 alunos
+4214300,Rancho Queimado,SC,44.0,0.8636363636363636,menos de 50 alunos
+4215059,Rio Rufino,SC,32.0,0.71875,menos de 50 alunos
+4215208,Romelândia,SC,43.0,0.9534883720930233,menos de 50 alunos
+4215356,Saltinho,SC,25.0,0.96,menos de 50 alunos
+4215554,Santa Helena,SC,24.0,1.0,menos de 50 alunos
+4215604,Santa Rosa de Lima,SC,37.0,1.0,menos de 50 alunos
+4215687,Santa Terezinha do Progresso,SC,26.0,0.9230769230769231,menos de 50 alunos
+4215695,Santiago do Sul,SC,24.0,0.9166666666666666,menos de 50 alunos
+4215752,São Bernardino,SC,46.0,0.8695652173913043,menos de 50 alunos
+4215901,São Bonifácio,SC,21.0,0.9047619047619048,menos de 50 alunos
+4217105,São Martinho,SC,46.0,0.9347826086956522,menos de 50 alunos
+4217154,São Miguel da Boa Vista,SC,22.0,0.8636363636363636,menos de 50 alunos
+4217550,Serra Alta,SC,43.0,0.9302325581395349,menos de 50 alunos
+4217758,Sul Brasil,SC,29.0,0.896551724137931,menos de 50 alunos
+4217956,Tigrinhos,SC,43.0,0.8604651162790697,menos de 50 alunos
+4218350,Treviso,SC,42.0,0.8095238095238095,menos de 50 alunos
+4218855,União do Oeste,SC,36.0,0.8055555555555556,menos de 50 alunos
+4219101,Vargeão,SC,49.0,0.8163265306122449,menos de 50 alunos
+4219150,Vargem,SC,32.0,0.75,menos de 50 alunos
+4219606,Xavantina,SC,35.0,0.8571428571428571,menos de 50 alunos
+2800100,Amparo de São Francisco,SE,11.0,0.9090909090909091,menos de 50 alunos
+2801108,Canhoba,SE,28.0,1.0,menos de 50 alunos
+2801603,Cedro de São João,SE,36.0,0.8888888888888888,menos de 50 alunos
+2801900,Cumbe,SE,37.0,0.8918918918918919,menos de 50 alunos
+2802502,General Maynard,SE,34.0,0.9411764705882353,menos de 50 alunos
+2802601,Gracho Cardoso,SE,12.0,1.0,menos de 50 alunos
+2803104,Itabi,SE,24.0,0.8333333333333334,menos de 50 alunos
+2803708,Macambira,SE,27.0,0.8888888888888888,menos de 50 alunos
+2804300,Muribeca,SE,37.0,0.9459459459459459,menos de 50 alunos
+2804458,Nossa Senhora Aparecida,SE,49.0,0.9591836734693877,menos de 50 alunos
+2805000,Pedra Mole,SE,25.0,0.92,menos de 50 alunos
+2805208,Pinhão,SE,46.0,0.9130434782608695,menos de 50 alunos
+2806503,Santa Rosa de Lima,SE,44.0,0.9545454545454546,menos de 50 alunos
+2806800,São Domingos,SE,47.0,1.0,menos de 50 alunos
+2806909,São Francisco,SE,17.0,0.9411764705882353,menos de 50 alunos
+2807006,São Miguel do Aleixo,SE,28.0,0.9285714285714286,menos de 50 alunos
+2807303,Telha,SE,39.0,1.0,menos de 50 alunos
+3500204,Adolfo,SP,46.0,0.9565217391304348,menos de 50 alunos
+3500600,Águas de São Pedro,SP,46.0,0.9130434782608695,menos de 50 alunos
+3500808,Alfredo Marcondes,SP,37.0,0.972972972972973,menos de 50 alunos
+3500907,Altair,SP,33.0,0.8181818181818182,menos de 50 alunos
+3501103,Alto Alegre,SP,41.0,0.9512195121951219,menos de 50 alunos
+3501202,Álvares Florence,SP,23.0,0.9565217391304348,menos de 50 alunos
+3501400,Álvaro de Carvalho,SP,33.0,0.9090909090909091,menos de 50 alunos
+3501509,Alvinlândia,SP,49.0,0.9795918367346939,menos de 50 alunos
+3501806,Américo de Campos,SP,41.0,0.9024390243902439,menos de 50 alunos
+3502408,Anhumas,SP,43.0,0.9302325581395349,menos de 50 alunos
+3502606,Aparecida d'Oeste,SP,42.0,0.9047619047619048,menos de 50 alunos
+3503158,Arapeí,SP,26.0,0.9230769230769231,menos de 50 alunos
+3503356,Arco-Íris,SP,22.0,1.0,menos de 50 alunos
+3503505,Areias,SP,37.0,0.8108108108108109,menos de 50 alunos
+3503950,Aspásia,SP,22.0,1.0,menos de 50 alunos
+3504701,Balbinos,SP,10.0,1.0,menos de 50 alunos
+3505005,Barão de Antonina,SP,46.0,0.8695652173913043,menos de 50 alunos
+3506201,Bento de Abreu,SP,35.0,0.9142857142857143,menos de 50 alunos
+3507209,Borá,SP,12.0,1.0,menos de 50 alunos
+3507753,Brejo Alegre,SP,25.0,0.96,menos de 50 alunos
+3508900,Caiabu,SP,28.0,0.8571428571428571,menos de 50 alunos
+3509106,Caiuá,SP,27.0,1.0,menos de 50 alunos
+3510104,Cândido Rodrigues,SP,26.0,1.0,menos de 50 alunos
+3510906,Cássia dos Coqueiros,SP,36.0,0.8888888888888888,menos de 50 alunos
+3512605,Coronel Macedo,SP,48.0,0.9166666666666666,menos de 50 alunos
+3512704,Corumbataí,SP,48.0,0.9166666666666666,menos de 50 alunos
+3513306,Cruzália,SP,19.0,0.8947368421052632,menos de 50 alunos
+3513850,Dirce Reis,SP,14.0,0.9285714285714286,menos de 50 alunos
+3514205,Dolcinópolis,SP,26.0,1.0,menos de 50 alunos
+3514924,Elisiário,SP,36.0,0.9166666666666666,menos de 50 alunos
+3514957,Embaúba,SP,28.0,0.9285714285714286,menos de 50 alunos
+3515129,Emilianópolis,SP,27.0,0.9629629629629629,menos de 50 alunos
+3515301,Estrela do Norte,SP,30.0,0.9333333333333333,menos de 50 alunos
+3515657,Fernão,SP,27.0,0.9259259259259259,menos de 50 alunos
+3515806,Flora Rica,SP,11.0,1.0,menos de 50 alunos
+3515905,Floreal,SP,30.0,0.9,menos de 50 alunos
+3516101,Florínia,SP,37.0,0.9459459459459459,menos de 50 alunos
+3516507,Gabriel Monteiro,SP,31.0,0.9032258064516129,menos de 50 alunos
+3516804,Gastão Vidigal,SP,32.0,0.9375,menos de 50 alunos
+3517109,Glicério,SP,40.0,0.95,menos de 50 alunos
+3517802,Guaraçaí,SP,41.0,0.8780487804878049,menos de 50 alunos
+3518008,Guarani d'Oeste,SP,15.0,0.9333333333333333,menos de 50 alunos
+3518909,Guzolândia,SP,44.0,0.9545454545454546,menos de 50 alunos
+3520608,Indiana,SP,34.0,1.0,menos de 50 alunos
+3520707,Indiaporã,SP,41.0,0.926829268292683,menos de 50 alunos
+3520806,Inúbia Paulista,SP,40.0,0.975,menos de 50 alunos
+3521200,Iporanga,SP,32.0,1.0,menos de 50 alunos
+3522000,Itaju,SP,40.0,0.95,menos de 50 alunos
+3522158,Itaóca,SP,27.0,1.0,menos de 50 alunos
+3525409,Jeriquara,SP,46.0,0.8695652173913043,menos de 50 alunos
+3525854,Jumirim,SP,46.0,0.8913043478260869,menos de 50 alunos
+3526506,Lavínia,SP,41.0,0.8536585365853658,menos de 50 alunos
+3527256,Lourdes,SP,19.0,0.9473684210526315,menos de 50 alunos
+3527504,Lucianópolis,SP,28.0,1.0,menos de 50 alunos
+3527801,Lupércio,SP,39.0,0.9230769230769231,menos de 50 alunos
+3527900,Lutécia,SP,25.0,0.88,menos de 50 alunos
+3528205,Macedônia,SP,40.0,1.0,menos de 50 alunos
+3528304,Magda,SP,35.0,0.9428571428571428,menos de 50 alunos
+3528700,Marabá Paulista,SP,31.0,0.9354838709677419,menos de 50 alunos
+3528858,Marapoama,SP,40.0,0.925,menos de 50 alunos
+3528908,Mariápolis,SP,33.0,0.9393939393939394,menos de 50 alunos
+3529104,Marinópolis,SP,13.0,1.0,menos de 50 alunos
+3529609,Meridiano,SP,49.0,0.9387755102040817,menos de 50 alunos
+3529658,Mesópolis,SP,17.0,0.9411764705882353,menos de 50 alunos
+3530003,Mira Estrela,SP,30.0,0.9666666666666667,menos de 50 alunos
+3531001,Monções,SP,27.0,0.9629629629629629,menos de 50 alunos
+3531605,Monte Castelo,SP,35.0,0.9142857142857143,menos de 50 alunos
+3532058,Motuca,SP,44.0,0.9318181818181818,menos de 50 alunos
+3532108,Murutinga do Sul,SP,33.0,0.9696969696969697,menos de 50 alunos
+3532157,Nantes,SP,44.0,0.9090909090909091,menos de 50 alunos
+3532843,Nova Canaã Paulista,SP,18.0,1.0,menos de 50 alunos
+3532868,Nova Castilho,SP,14.0,0.8571428571428571,menos de 50 alunos
+3533106,Nova Guataporanga,SP,19.0,0.9473684210526315,menos de 50 alunos
+3533205,Nova Independência,SP,47.0,0.9574468085106383,menos de 50 alunos
+3533304,Nova Luzitânia,SP,42.0,0.9761904761904762,menos de 50 alunos
+3533809,Óleo,SP,20.0,1.0,menos de 50 alunos
+3534005,Onda Verde,SP,48.0,0.8958333333333334,menos de 50 alunos
+3534104,Oriente,SP,43.0,1.0,menos de 50 alunos
+3534500,Oscar Bressane,SP,26.0,0.9615384615384616,menos de 50 alunos
+3536257,Parisi,SP,33.0,0.9696969696969697,menos de 50 alunos
+3536570,Paulistânia,SP,20.0,0.95,menos de 50 alunos
+3536802,Pedra Bela,SP,49.0,0.8367346938775511,menos de 50 alunos
+3536901,Pedranópolis,SP,24.0,0.9166666666666666,menos de 50 alunos
+3537156,Pedrinhas Paulista,SP,32.0,0.96875,menos de 50 alunos
+3538303,Piquerobi,SP,37.0,0.972972972972973,menos de 50 alunos
+3539707,Platina,SP,43.0,0.9069767441860465,menos de 50 alunos
+3539905,Poloni,SP,48.0,0.9375,menos de 50 alunos
+3540101,Pongaí,SP,39.0,0.8461538461538461,menos de 50 alunos
+3540259,Pontalinda,SP,42.0,0.9047619047619048,menos de 50 alunos
+3540309,Pontes Gestal,SP,27.0,0.8518518518518519,menos de 50 alunos
+3540408,Populina,SP,48.0,0.8333333333333334,menos de 50 alunos
+3540853,Pracinha,SP,10.0,1.0,menos de 50 alunos
+3541109,Presidente Alves,SP,27.0,0.8518518518518519,menos de 50 alunos
+3542800,Ribeira,SP,26.0,0.9230769230769231,menos de 50 alunos
+3543204,Ribeirão do Sul,SP,48.0,0.9583333333333334,menos de 50 alunos
+3543238,Ribeirão dos Índios,SP,12.0,1.0,menos de 50 alunos
+3544400,Rubiácea,SP,30.0,0.9333333333333333,menos de 50 alunos
+3544509,Rubinéia,SP,35.0,0.9142857142857143,menos de 50 alunos
+3544608,Sabino,SP,46.0,0.9347826086956522,menos de 50 alunos
+3544707,Sagres,SP,25.0,0.96,menos de 50 alunos
+3546108,Santa Clara d'Oeste,SP,28.0,0.9285714285714286,menos de 50 alunos
+3546207,Santa Cruz da Conceição,SP,32.0,0.9375,menos de 50 alunos
+3546256,Santa Cruz da Esperança,SP,22.0,0.9545454545454546,menos de 50 alunos
+3547106,Santa Mercedes,SP,37.0,0.972972972972973,menos de 50 alunos
+3547403,Santa Rita d'Oeste,SP,19.0,0.8947368421052632,menos de 50 alunos
+3547650,Santa Salete,SP,22.0,1.0,menos de 50 alunos
+3548302,Santo Expedito,SP,32.0,0.875,menos de 50 alunos
+3549003,São Francisco,SP,18.0,1.0,menos de 50 alunos
+3549201,São João das Duas Pontes,SP,14.0,0.7142857142857143,menos de 50 alunos
+3549250,São João de Iracema,SP,18.0,1.0,menos de 50 alunos
+3549300,São João do Pau d'Alho,SP,14.0,1.0,menos de 50 alunos
+3549607,São José do Barreiro,SP,36.0,0.9444444444444444,menos de 50 alunos
+3551207,Sarutaiá,SP,49.0,0.9183673469387755,menos de 50 alunos
+3551306,Sebastianópolis do Sul,SP,37.0,0.918918918918919,menos de 50 alunos
+3552551,Suzanápolis,SP,39.0,0.8205128205128205,menos de 50 alunos
+3553658,Taquaral,SP,13.0,0.8461538461538461,menos de 50 alunos
+3554607,Timburi,SP,31.0,0.9354838709677419,menos de 50 alunos
+3554656,Torre de Pedra,SP,26.0,1.0,menos de 50 alunos
+3554755,Trabiju,SP,20.0,0.95,menos de 50 alunos
+3555208,Turiúba,SP,17.0,0.8823529411764706,menos de 50 alunos
+3555307,Turmalina,SP,18.0,0.9444444444444444,menos de 50 alunos
+3555703,União Paulista,SP,16.0,0.9375,menos de 50 alunos
+3555901,Uru,SP,16.0,1.0,menos de 50 alunos
+3556958,Vitória Brasil,SP,14.0,1.0,menos de 50 alunos
+3557154,Zacarias,SP,25.0,1.0,menos de 50 alunos
+1700251,Abreulândia,TO,32.0,0.875,menos de 50 alunos
+1701051,Angico,TO,37.0,0.918918918918919,menos de 50 alunos
+1702703,Aurora do Tocantins,TO,37.0,0.7837837837837838,menos de 50 alunos
+1703057,Bandeirantes do Tocantins,TO,46.0,0.9782608695652174,menos de 50 alunos
+1703602,Brasilândia do Tocantins,TO,32.0,0.90625,menos de 50 alunos
+1703826,Cachoeirinha,TO,26.0,0.9615384615384616,menos de 50 alunos
+1703883,Carmolândia,TO,43.0,0.8372093023255814,menos de 50 alunos
+1703891,Carrasco Bonito,TO,36.0,0.9444444444444444,menos de 50 alunos
+1704105,Centenário,TO,34.0,0.8823529411764706,menos de 50 alunos
+1704600,Chapada de Areia,TO,21.0,0.7619047619047619,menos de 50 alunos
+1705102,Chapada da Natividade,TO,42.0,1.0,menos de 50 alunos
+1706258,Crixás do Tocantins,TO,23.0,1.0,menos de 50 alunos
+1707553,Fátima,TO,44.0,0.8409090909090909,menos de 50 alunos
+1708304,Goianorte,TO,45.0,0.9111111111111111,menos de 50 alunos
+1709807,Ipueiras,TO,15.0,0.9333333333333333,menos de 50 alunos
+1710508,Itacajá,TO,47.0,0.9361702127659575,menos de 50 alunos
+1710904,Itapiratins,TO,48.0,0.9375,menos de 50 alunos
+1711100,Itaporã do Tocantins,TO,30.0,0.8333333333333334,menos de 50 alunos
+1711506,Jaú do Tocantins,TO,38.0,0.8421052631578947,menos de 50 alunos
+1711803,Juarina,TO,37.0,0.972972972972973,menos de 50 alunos
+1712157,Lavandeira,TO,30.0,0.9666666666666667,menos de 50 alunos
+1712405,Lizarda,TO,28.0,0.75,menos de 50 alunos
+1712454,Luzinópolis,TO,49.0,0.9591836734693877,menos de 50 alunos
+1712702,Mateiros,TO,24.0,0.9166666666666666,menos de 50 alunos
+1712801,Maurilândia do Tocantins,TO,40.0,0.95,menos de 50 alunos
+1713700,Monte Santo do Tocantins,TO,32.0,0.8125,menos de 50 alunos
+1713957,Muricilândia,TO,40.0,0.8,menos de 50 alunos
+1715002,Nova Rosalândia,TO,30.0,0.9666666666666667,menos de 50 alunos
+1715150,Novo Alegre,TO,25.0,0.96,menos de 50 alunos
+1715259,Novo Jardim,TO,39.0,0.8717948717948718,menos de 50 alunos
+1715507,Oliveira de Fátima,TO,20.0,0.95,menos de 50 alunos
+1717206,Piraquê,TO,25.0,0.88,menos de 50 alunos
+1717800,Ponte Alta do Bom Jesus,TO,47.0,0.8936170212765957,menos de 50 alunos
+1718303,Praia Norte,TO,43.0,0.9069767441860465,menos de 50 alunos
+1718451,Pugmil,TO,25.0,0.88,menos de 50 alunos
+1718659,Rio da Conceição,TO,38.0,0.9210526315789473,menos de 50 alunos
+1718709,Rio dos Bois,TO,42.0,0.9285714285714286,menos de 50 alunos
+1718840,Sandolândia,TO,49.0,0.9183673469387755,menos de 50 alunos
+1718881,Santa Maria do Tocantins,TO,49.0,0.8367346938775511,menos de 50 alunos
+1718899,Santa Rita do Tocantins,TO,32.0,0.9375,menos de 50 alunos
+1720002,Santa Terezinha do Tocantins,TO,45.0,0.9333333333333333,menos de 50 alunos
+1720150,São Félix do Tocantins,TO,22.0,0.9545454545454546,menos de 50 alunos
+1720259,São Salvador do Tocantins,TO,49.0,0.9183673469387755,menos de 50 alunos
+1720499,São Valério,TO,47.0,0.8723404255319149,menos de 50 alunos
+1720853,Sucupira,TO,30.0,0.9666666666666667,menos de 50 alunos
+1720937,Taipas do Tocantins,TO,27.0,1.0,menos de 50 alunos
+1720978,Talismã,TO,45.0,0.6888888888888889,menos de 50 alunos
+1721257,Tupirama,TO,27.0,0.8888888888888888,menos de 50 alunos
+1721307,Tupiratins,TO,26.0,1.0,menos de 50 alunos
+1300300,Autazes,AM,731.0,0.3789329685362517,participação < 50%
+1301100,Careiro,AM,490.0,0.3551020408163265,participação < 50%
+2914307,Iramaia,BA,102.0,0.3235294117647059,participação < 50%
+2914505,Irará,BA,184.0,0.45108695652173914,participação < 50%
+3162450,São João das Missões,MG,247.0,0.25101214574898784,participação < 50%
+4202008,Balneário Camboriú,SC,1212.0,0.0,participação < 50%
+4202107,Barra Velha,SC,804.0,0.43034825870646765,participação < 50%
+4203204,Camboriú,SC,1539.0,0.0,participação < 50%
+4205175,Entre Rios,SC,73.0,0.4383561643835616,participação < 50%
+4206009,Governador Celso Ramos,SC,276.0,0.4166666666666667,participação < 50%
+4207684,Ipuaçu,SC,152.0,0.3881578947368421,participação < 50%
+4218004,Tijucas,SC,719.0,0.13908205841446453,participação < 50%
+2904753,Buritirama,BA,,,sem avaliação em 2024
+2908705,Condeúba,BA,,,sem avaliação em 2024
+2916005,Itanhém,BA,,,sem avaliação em 2024
+2918456,Jucuruçu,BA,,,sem avaliação em 2024
+2918753,Lagoa Real,BA,,,sem avaliação em 2024
+2920700,Maraú,BA,,,sem avaliação em 2024
+2922508,Nazaré,BA,,,sem avaliação em 2024
+2925758,Presidente Tancredo Neves,BA,,,sem avaliação em 2024
+2926202,Riachão das Neves,BA,,,sem avaliação em 2024
+2930758,Sítio do Mato,BA,,,sem avaliação em 2024
+5219308,Santa Helena de Goiás,GO,,,sem avaliação em 2024
+3115607,Cedro do Abaeté,MG,,,sem avaliação em 2024
+2503753,Cajazeirinhas,PB,,,sem avaliação em 2024
+2510659,Parari,PB,,,sem avaliação em 2024
+4302055,Benjamin Constant do Sul,RS,,,sem avaliação em 2024
+4302154,Boa Vista das Missões,RS,,,sem avaliação em 2024
+4304614,Canudos do Vale,RS,,,sem avaliação em 2024
+4305934,Coronel Pilar,RS,,,sem avaliação em 2024
+4306353,Dezesseis de Novembro,RS,,,sem avaliação em 2024
+4306429,Dois Irmãos das Missões,RS,,,sem avaliação em 2024
+4308656,Garruchos,RS,,,sem avaliação em 2024
+4310876,Jacuizinho,RS,,,sem avaliação em 2024
+4312674,Nicolau Vergueiro,RS,,,sem avaliação em 2024
+4313466,Novo Xingu,RS,,,sem avaliação em 2024
+4314548,Pinto Bandeira,RS,,,sem avaliação em 2024
+4315453,Relvado,RS,,,sem avaliação em 2024
+4317251,Santa Tereza,RS,,,sem avaliação em 2024
+4322186,Tupanci do Sul,RS,,,sem avaliação em 2024
+4203253,Capão Alto,SC,,,sem avaliação em 2024

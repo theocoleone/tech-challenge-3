@@ -1,0 +1,29 @@
+{
+  "treino": {
+    "ano": 2023,
+    "alunos": 360887
+  },
+  "teste_2024_todos": {
+    "modelo": "Regressão Logística (tunado)",
+    "acuracia": 0.5851,
+    "precisao_nao_alf": 0.5745,
+    "recall_nao_alf": 0.5101,
+    "f1_macro": 0.5811,
+    "roc_auc": 0.6189,
+    "auc_pr": 0.633
+  },
+  "teste_2024_ufs_com_2023": {
+    "modelo": "Regressão Logística (tunado)",
+    "acuracia": 0.6008,
+    "precisao_nao_alf": 0.5762,
+    "recall_nao_alf": 0.6132,
+    "f1_macro": 0.6007,
+    "roc_auc": 0.6452,
+    "auc_pr": 0.6653
+  },
+  "ufs_sem_2023": [
+    "AC",
+    "DF",
+    "SP"
+  ]
+}
