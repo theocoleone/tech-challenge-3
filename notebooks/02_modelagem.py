@@ -14,8 +14,10 @@ import joblib
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+import numpy as np
 import pandas as pd
 import shap
+from sklearn.metrics import confusion_matrix, roc_curve
 from scipy.stats import randint, uniform
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
@@ -125,6 +127,16 @@ def main():
         print(f"  {k}: {v}")
     plot_confusao(y_te, pred, campeao_nome, os.path.join(FIG, "07_confusao_campeao.png"))
     plot_roc(y_te, proba, campeao_nome, os.path.join(FIG, "08_roc_campeao.png"))
+    # artefatos p/ reconstruir os gráficos em tema escuro no dashboard
+    tn, fp, fn, tp = confusion_matrix(y_te, pred).ravel()
+    with open(os.path.join(REPORTS, "confusao.json"), "w") as f:
+        json.dump({"tn": int(tn), "fp": int(fp), "fn": int(fn), "tp": int(tp)}, f)
+    fpr, tpr, _ = roc_curve(y_te, proba)
+    idx = np.linspace(0, len(fpr) - 1, min(220, len(fpr))).astype(int)
+    with open(os.path.join(REPORTS, "roc.json"), "w") as f:
+        json.dump({"fpr": [round(float(x), 4) for x in fpr[idx]],
+                   "tpr": [round(float(x), 4) for x in tpr[idx]],
+                   "auc": final["roc_auc"]}, f)
 
     # ---- Interpretabilidade (SHAP + importâncias) ----
     print("\n=== INTERPRETABILIDADE (SHAP) ===")
@@ -144,6 +156,9 @@ def main():
             plt.tight_layout()
             plt.savefig(os.path.join(FIG, "09_shap_summary.png"), dpi=110, bbox_inches="tight")
             plt.close()
+            # importância média |SHAP| p/ o dashboard (tema escuro)
+            pd.Series(np.abs(sv).mean(axis=0), index=nomes).sort_values(ascending=False).head(15) \
+                .to_json(os.path.join(REPORTS, "shap_importancia.json"), indent=2)
         except Exception as e:
             print(f"[aviso] SHAP falhou ({type(e).__name__}: {e}); seguindo com importâncias.")
         imp = pd.Series(modelo_fit.feature_importances_, index=nomes).sort_values(ascending=False)
