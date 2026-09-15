@@ -1,14 +1,14 @@
 """Ingestão da base de alunos (grão aluno) a partir da camada Silver no S3.
 
 Carrega `silver/alunos` (2023+2024) e o alvo `alfabetizado`. Colunas medidas no exame
-(proficiência, presença, preenchimento) ficam de fora — docs/decisoes.md, D02 e D03.
+(proficiência, presença, preenchimento) ficam de fora por vazarem o resultado.
 """
 import pandas as pd
 
 from src import config
 from src.data_access import ler_parquet_s3
 
-# id_escola é anonimizado no SAEB e não casa com o Censo (D04); rede e sigla_uf são features.
+# id_escola é anonimizado no SAEB e não casa com o Censo; rede e sigla_uf são features.
 _COLS_ALUNOS = ["id_aluno", "id_municipio", "id_escola", "rede", "sigla_uf", "alfabetizado"]
 
 

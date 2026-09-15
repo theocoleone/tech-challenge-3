@@ -28,7 +28,7 @@ GCP_BILLING_PROJECT = os.environ.get("GCP_BILLING_PROJECT", "aist-tech-challenge
 
 COLUNA_ALVO = "alfabetizado"
 
-# Medidas no exame ou derivadas do alvo. Nunca entram como feature (docs/decisoes.md, D03).
+# Medidas no exame ou derivadas do alvo. Nunca entram como feature.
 COLUNAS_LEAKAGE = [
     "proficiencia", "alfabetizado", "alfabetizado_desc",
     "presenca", "preenchimento_caderno", "percentual_participacao",
@@ -38,7 +38,7 @@ COLUNAS_LEAKAGE = [
 
 
 def base_local() -> str:
-    """Base completa se existir; senão a amostra versionada (docs/decisoes.md, D09)."""
+    """Base completa se existir; senão a amostra versionada no repositório."""
     if os.path.exists(BASE_LOCAL):
         return BASE_LOCAL
     if os.path.exists(AMOSTRA_LOCAL):

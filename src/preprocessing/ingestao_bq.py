@@ -2,8 +2,8 @@
 
 Duas famílias, ambas de pré-condições (nada medido no exame):
   - Escola: Censo Escolar INEP agregado por (id_municipio, ano) — o id_escola do SAEB é
-    anonimizado e não casa com o código INEP (docs/decisoes.md, D04).
-  - Município: Atlas ADH 2010 + IVS 2010 + população/PIB 2023 + diretório IBGE (D05).
+    anonimizado e não casa com o código INEP, então não há join escola a escola.
+  - Município: Atlas ADH 2010 + IVS 2010 + população/PIB 2023 + diretório IBGE.
 """
 import pandas as pd
 

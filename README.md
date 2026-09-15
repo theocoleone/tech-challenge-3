@@ -133,7 +133,7 @@ contínua entra no top-15**. A localização (qual UF/região) é o principal pr
 ```
 tech-challenge-3/
 ├── data/            # base completa (gitignored, vive no S3) + amostra.parquet versionada
-├── docs/            # decisoes.md (registro de decisões), dicionario_dados.md, guideline
+├── docs/            # dicionario_dados.md
 ├── notebooks/       # 01_eda · 02_modelagem · 03_aplicacao_estrategica
 ├── src/
 │   ├── preprocessing/  # ingestão S3 + BigQuery, montagem da base

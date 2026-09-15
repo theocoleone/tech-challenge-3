@@ -44,7 +44,7 @@ os.makedirs(FIG, exist_ok=True)
 os.makedirs(MODELS, exist_ok=True)
 
 SEED = 42
-N_AMOSTRA = 800_000   # docs/decisoes.md, D06
+N_AMOSTRA = 800_000
 
 
 def main():

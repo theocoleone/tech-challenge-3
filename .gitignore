@@ -32,3 +32,6 @@ secrets/
 *service_account*.json
 *credentials*.json
 *-key.json
+
+# Material do curso (não versionar)
+docs/*.pdf
