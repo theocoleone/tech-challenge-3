@@ -11,7 +11,7 @@ import os
 from src import config
 from src.data_access import gravar_parquet_s3
 from src.preprocessing.ingestao_bq import (
-    carregar_censo_escolar,
+    carregar_censo_escolar_municipio,
     carregar_socioeconomico_municipio,
 )
 from src.preprocessing.ingestao_s3 import carregar_alunos
@@ -24,9 +24,9 @@ def montar_base(salvar_s3: bool = True):
     alunos = carregar_alunos()
     print(f"     {len(alunos):,} alunos")
 
-    print("2/4 censo escolar (BigQuery)...")
-    escola = carregar_censo_escolar()
-    print(f"     {len(escola):,} escola-anos")
+    print("2/4 censo escolar agregado por município (BigQuery)...")
+    escola = carregar_censo_escolar_municipio()
+    print(f"     {len(escola):,} município-anos de escola")
 
     print("3/4 socioeconômico municipal (BigQuery)...")
     muni = carregar_socioeconomico_municipio()
@@ -35,13 +35,13 @@ def montar_base(salvar_s3: bool = True):
     print("4/4 joins...")
     base = (
         alunos
-        .merge(escola, on=["id_escola", "ano"], how="left")
+        .merge(escola, on=["id_municipio", "ano"], how="left")
         .merge(muni, on="id_municipio", how="left")
     )
     print(f"     base final: {base.shape[0]:,} linhas x {base.shape[1]} colunas")
 
     # cobertura dos joins (quanto casou) — sinaliza problemas de chave
-    casou_escola = base["esc_tipo_localizacao"].notna().mean()
+    casou_escola = base["esc_prop_internet"].notna().mean()
     casou_muni = base["idhm"].notna().mean()
     print(f"     match escola: {casou_escola:.1%} | match município (idhm): {casou_muni:.1%}")
 

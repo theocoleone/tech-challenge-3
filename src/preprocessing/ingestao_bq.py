@@ -1,21 +1,25 @@
 """Ingestão das fontes externas (BigQuery / Base dos Dados) para enriquecer a base.
 
 Duas famílias, todas de variáveis NÃO-vazadas (pré-condições, não saídas do exame):
-  - Escola  (Censo Escolar INEP) — infraestrutura/docentes/matrículas, por (id_escola, ano).
+  - Escola  (Censo Escolar INEP) — infra/docentes/matrículas AGREGADAS por (id_municipio, ano)
+             (o id_escola do SAEB é anonimizado e não casa com o código INEP; ver Planning §2).
   - Município (Atlas ADH 2010 + IVS/AVS 2010 + PIB/pop 2023 + diretório), estático por id_municipio.
 """
 import pandas as pd
 
 from src.data_access import query_bigquery
 
-# --- Censo Escolar: subconjunto curado de features de contexto da escola ---
-_ESCOLA_FEATURES = [
-    "tipo_localizacao",                                   # urbana/rural
+# --- Censo Escolar: infraestrutura da escola AGREGADA ao município ---
+# O id_escola do SAEB alfabetização é ANONIMIZADO (não é o código INEP), então não há
+# join escola-a-escola. Agregamos o Censo por município-ano: proporção de escolas de anos
+# iniciais com cada item de infra + média de docentes/matrículas/salas por escola.
+_ESCOLA_BIN = [
     "agua_rede_publica", "energia_rede_publica", "esgoto_rede_publica",
     "internet", "banda_larga", "biblioteca",
     "laboratorio_informatica", "laboratorio_ciencias",
     "quadra_esportes", "refeitorio", "alimentacao", "area_verde", "patio_coberto",
-    "acessibilidade_inexistente",
+]
+_ESCOLA_QTD = [
     "quantidade_docente_fundamental_anos_iniciais",
     "quantidade_matricula_fundamental_anos_iniciais",
     "quantidade_sala_utilizada",
@@ -24,18 +28,28 @@ _ESCOLA_FEATURES = [
 ]
 
 
-def carregar_censo_escolar(anos=(2023, 2024)) -> pd.DataFrame:
-    """Features da escola por (id_escola, ano). Prefixo `esc_` evita colisão com colunas do aluno."""
-    cols = ", ".join(_ESCOLA_FEATURES)
+def carregar_censo_escolar_municipio(anos=(2023, 2024)) -> pd.DataFrame:
+    """Infra escolar (anos iniciais) agregada por (id_municipio, ano). Prefixo `esc_`."""
+    prop = ",\n               ".join(
+        f"AVG(CAST({c} AS FLOAT64)) AS esc_prop_{c}" for c in _ESCOLA_BIN
+    )
+    media = ",\n               ".join(
+        f"AVG({c}) AS esc_media_{c}" for c in _ESCOLA_QTD
+    )
     anos_sql = ", ".join(str(a) for a in anos)
     sql = f"""
-        SELECT id_escola, ano, {cols}
+        SELECT id_municipio, ano,
+               COUNT(*) AS esc_n_escolas,
+               AVG(CASE WHEN tipo_localizacao = '2' THEN 1.0 ELSE 0.0 END) AS esc_prop_rural,
+               {prop},
+               {media}
         FROM `basedosdados.br_inep_censo_escolar.escola`
         WHERE ano IN ({anos_sql})
+          AND etapa_ensino_fundamental_anos_iniciais = 1
+        GROUP BY id_municipio, ano
     """
     df = query_bigquery(sql)
-    df = df.rename(columns={c: f"esc_{c}" for c in _ESCOLA_FEATURES})
-    df["id_escola"] = df["id_escola"].astype(str)
+    df["id_municipio"] = df["id_municipio"].astype(str)
     df["ano"] = df["ano"].astype(int)
     return df
 
@@ -94,7 +108,7 @@ def carregar_socioeconomico_municipio() -> pd.DataFrame:
 
 
 if __name__ == "__main__":
-    e = carregar_censo_escolar()
-    print(f"censo escolar: {len(e):,} linhas x {e.shape[1]} colunas")
+    e = carregar_censo_escolar_municipio()
+    print(f"censo escolar (município-ano): {len(e):,} linhas x {e.shape[1]} colunas")
     m = carregar_socioeconomico_municipio()
     print(f"socioeconômico municipal: {len(m):,} linhas x {m.shape[1]} colunas")
