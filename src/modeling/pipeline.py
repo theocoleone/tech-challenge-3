@@ -12,7 +12,7 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from src import config
 
 ALVO = config.COLUNA_ALVO
-IDS = ["id_aluno", "id_municipio", "id_escola", "nome_municipio"]
+IDS = ["id_aluno", "id_municipio", "nome_municipio"]
 DROP = IDS + [ALVO, "nome_mesorregiao"]
 CATEGORICAS = ["rede", "sigla_uf", "nome_regiao", "amazonia_legal", "capital_uf", "ano"]
 

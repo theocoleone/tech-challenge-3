@@ -1,23 +1,24 @@
 """Ingestão da base de alunos (grão aluno) a partir da camada Silver no S3.
 
-Carrega `silver/alunos` (2023+2024) e o alvo `alfabetizado`. Colunas medidas no exame
-(proficiência, presença, preenchimento) ficam de fora por vazarem o resultado.
+Carrega `silver/alunos` (2023+2024) com o alvo `alfabetizado` e a presença na prova.
+Proficiência e preenchimento do caderno ficam de fora por vazarem o resultado; `presenca`
+entra só para definir população e checar sensibilidade do rótulo, nunca como feature.
 """
 import pandas as pd
 
 from src import config
 from src.data_access import ler_parquet_s3
 
-# id_escola é anonimizado no SAEB e não casa com o Censo; rede e sigla_uf são features.
-_COLS_ALUNOS = ["id_aluno", "id_municipio", "id_escola", "rede", "sigla_uf", "alfabetizado"]
+_COLS_ALUNOS = ["id_aluno", "id_municipio", "nome", "rede", "sigla_uf", "presenca", "alfabetizado"]
 
 
 def carregar_alunos() -> pd.DataFrame:
-    """Lê silver/alunos (2023+2024), tipa o alvo e a partição `ano`."""
+    """Lê silver/alunos (2023+2024), tipa alvo, presença e a partição `ano`."""
     df = ler_parquet_s3(config.SILVER_ALUNOS, columns=_COLS_ALUNOS)
-    df["ano"] = df["ano"].astype(int)                    # partição vem como string do path
-    df["alfabetizado"] = df["alfabetizado"].astype(int)  # alvo binário 0/1
-    df["id_escola"] = df["id_escola"].astype(str)
+    df = df.rename(columns={"nome": "nome_municipio"})
+    df["ano"] = df["ano"].astype(int)
+    df["alfabetizado"] = df["alfabetizado"].astype(int)
+    df["presenca"] = df["presenca"].astype(int)
     df["id_municipio"] = df["id_municipio"].astype(str)
     return df
 
@@ -27,3 +28,5 @@ if __name__ == "__main__":
     print(f"alunos: {len(d):,} linhas x {d.shape[1]} colunas")
     print("distribuição do alvo (alfabetizado):")
     print(d["alfabetizado"].value_counts(normalize=True).round(4))
+    print("presença na prova:")
+    print(d["presenca"].value_counts(normalize=True).round(4))

@@ -41,10 +41,11 @@ def montar_base(salvar_s3: bool = True):
     )
     print(f"     base final: {base.shape[0]:,} linhas x {base.shape[1]} colunas")
 
-    # cobertura dos joins (quanto casou) — sinaliza problemas de chave
     casou_escola = base["esc_prop_internet"].notna().mean()
     casou_muni = base["idhm"].notna().mean()
-    print(f"     match escola: {casou_escola:.1%} | match município (idhm): {casou_muni:.1%}")
+    print(f"     match censo escolar: {casou_escola:.1%} | match município (idhm): {casou_muni:.1%}")
+    print(f"     presença na prova: {base['presenca'].mean():.1%} | "
+          f"taxa de alfabetização: {base['alfabetizado'].mean():.1%}")
 
     os.makedirs(os.path.dirname(DATA_LOCAL), exist_ok=True)
     base.to_parquet(DATA_LOCAL, index=False)
