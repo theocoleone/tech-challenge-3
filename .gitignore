@@ -34,4 +34,4 @@ secrets/
 *-key.json
 
 # Material do curso (não versionar)
-docs/*.pdf
+local/*
