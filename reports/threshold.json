@@ -1,0 +1,23 @@
+{
+  "recall_alvo_nao_alf": 0.7,
+  "corte_padrao": 0.5,
+  "metricas_corte_padrao": {
+    "acuracia": 0.5945,
+    "precisao_nao_alf": 0.5842,
+    "recall_nao_alf": 0.5684,
+    "f1_macro": 0.5937,
+    "roc_auc": 0.6333,
+    "auc_pr": 0.6448
+  },
+  "corte_escolhido": 0.55,
+  "metricas_corte_escolhido": {
+    "acuracia": 0.5862,
+    "precisao_nao_alf": 0.5576,
+    "recall_nao_alf": 0.71,
+    "f1_macro": 0.5818,
+    "roc_auc": 0.6333,
+    "auc_pr": 0.6448
+  },
+  "prop_alunos_sinalizados_padrao": 0.4719,
+  "prop_alunos_sinalizados_escolhido": 0.6175
+}

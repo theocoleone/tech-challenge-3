@@ -38,7 +38,10 @@ COLUNAS_LEAKAGE = [
 
 
 def base_local() -> str:
-    """Base completa se existir; senão a amostra versionada no repositório."""
+    """Base completa se existir; senão a amostra versionada. `TC3_BASE` força um caminho."""
+    forcada = os.environ.get("TC3_BASE")
+    if forcada:
+        return os.path.abspath(forcada)
     if os.path.exists(BASE_LOCAL):
         return BASE_LOCAL
     if os.path.exists(AMOSTRA_LOCAL):
@@ -48,11 +51,4 @@ def base_local() -> str:
     raise FileNotFoundError(
         "Nenhuma base em data/. Rode `python -m src.preprocessing.montar_base` "
         "(exige acesso ao S3/BigQuery) ou restaure data/amostra.parquet do repositório."
-    )
-
-
-def rodando_no_sagemaker() -> bool:
-    return (
-        any(k in os.environ for k in ("SM_CURRENT_HOST", "SAGEMAKER_INTERNAL_IMAGE_URI"))
-        or os.path.exists("/opt/ml")
     )

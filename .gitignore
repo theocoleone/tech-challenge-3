@@ -17,9 +17,9 @@ venv/
 data/*
 !data/amostra.parquet
 
-# Modelos treinados
-models/
-*.joblib
+# Modelos treinados: só o pipeline campeão (13 KB) é versionado
+models/*
+!models/campeao.joblib
 *.pkl
 
 # Dashboard gerado (HTML pesado, regenerado por gerar_dashboard.py)

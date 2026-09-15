@@ -1,0 +1,20 @@
+{
+  "treino": {
+    "modelo": "Regressão Logística (tunado)",
+    "acuracia": 0.6011,
+    "precisao_nao_alf": 0.5918,
+    "recall_nao_alf": 0.585,
+    "f1_macro": 0.6007,
+    "roc_auc": 0.6419,
+    "auc_pr": 0.653
+  },
+  "teste": {
+    "modelo": "Regressão Logística (tunado)",
+    "acuracia": 0.5945,
+    "precisao_nao_alf": 0.5842,
+    "recall_nao_alf": 0.5684,
+    "f1_macro": 0.5937,
+    "roc_auc": 0.6333,
+    "auc_pr": 0.6448
+  }
+}

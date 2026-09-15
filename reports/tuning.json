@@ -1,0 +1,25 @@
+{
+  "campeao": "Regressão Logística",
+  "criterio": "maior ROC-AUC em CV por município após tuning",
+  "finalistas": {
+    "Regressão Logística": {
+      "roc_auc_cv_baseline": 0.6272,
+      "roc_auc_cv_tunado": 0.6278,
+      "mantido": "tunado",
+      "melhores_hiperparametros": {
+        "modelo__C": 0.0115
+      }
+    },
+    "Random Forest": {
+      "roc_auc_cv_baseline": 0.6249,
+      "roc_auc_cv_tunado": 0.6262,
+      "mantido": "tunado",
+      "melhores_hiperparametros": {
+        "modelo__max_depth": 15,
+        "modelo__max_features": 0.5,
+        "modelo__min_samples_leaf": 23,
+        "modelo__n_estimators": 187
+      }
+    }
+  }
+}
