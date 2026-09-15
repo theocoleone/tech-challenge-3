@@ -4,7 +4,7 @@
 **Curso:** Pós-Graduação — AI Scientist — FIAP
 
 **Dashboard:** https://dv2nlyojecknt.cloudfront.net
-**Vídeo executivo:** _(a gravar — roteiro em `reports/roteiro_video_executivo.md`)_
+**Vídeo executivo:** _(a gravar)_
 
 > Continuação do Tech Challenge Fase 2: consome a camada **Gold** do data lake construído lá
 > (Arquitetura Medalhão no S3) e desenvolve um modelo supervisionado de Machine Learning, além
