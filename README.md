@@ -197,7 +197,7 @@ compensam. A leitura robusta é a de magnitude — geografia primeiro, porte e r
 - Mais edições da avaliação para modelagem temporal adequada e validação temporal completa.
 - Target encoding de município fold-safe, avaliado com o mesmo protocolo por grupo.
 - Novas fontes: FUNDEB, PNAD Contínua, Cadastro Único, Censo 2022 (substituir o ADH 2010).
-- Treino gerenciado (SageMaker) com o mesmo `Pipeline`, monitoramento de drift e retreinamento anual.
+- Retreinamento anual automatizado com o mesmo `Pipeline` e monitoramento de drift a cada nova edição da avaliação.
 
 ## 12. Decisões analíticas
 
