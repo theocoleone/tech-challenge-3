@@ -3,7 +3,7 @@
 **Autor:** Theo Coleone de Camargo
 **Curso:** Pós-Graduação — AI Scientist — FIAP
 
-**Dashboard:** _(CloudFront — a publicar)_
+**Dashboard:** https://dv2nlyojecknt.cloudfront.net
 **Vídeo executivo:** _(a gravar, ≤5 min)_
 
 > Continuação do Tech Challenge Fase 2: consome a camada **Gold** do data lake construído lá
@@ -54,6 +54,8 @@ _Mais fontes externas, séries mais longas, modelo por escola, MLOps/retreinamen
 ---
 
 ## Arquitetura e reprodução
+
+![Arquitetura dos serviços AWS — BigQuery → S3 → SageMaker → CloudFront](images/arquitetura_tc3.png)
 
 ```
 tech-challenge-3/
