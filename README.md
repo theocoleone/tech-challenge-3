@@ -25,8 +25,6 @@ público em inteligência para a decisão.
 
 ## 2. Objetivo analítico
 
-Dois grãos, duas entregas:
-
 1. **Modelo supervisionado (grão aluno):** classificação binária — prever se um aluno do 2º ano é
    *alfabetizado* (1) ou *não alfabetizado* (0) a partir de variáveis educacionais, territoriais e
    socioeconômicas do seu município.
@@ -216,7 +214,6 @@ compensam. A leitura robusta é a de magnitude — geografia primeiro, porte e r
 | Amostra de 800 mil alunos | Base completa | Sinal individual satura; tuning viável localmente |
 | Ranking pela taxa entre presentes, com filtros | Taxa com ausentes, sem filtro | Mesma definição da Gold; município com 0% e 410 alunos era não participação |
 | Cenários de meta com limite de ±5 p.p./ano | Extrapolação linear de um ano | A reta produzia gaps de ±600 p.p.; um ano não é tendência |
-| Execução local + artefatos no S3 | SageMaker | O usuário IAM do projeto não tem permissão para SageMaker; diagrama e código contam a mesma história |
 
 ---
 
