@@ -1,7 +1,7 @@
 """Acesso a dados: Parquet particionado no S3 e queries no BigQuery (Base dos Dados).
 
-Reaproveita o padrão do TC2 (`dashboard/gerar_dashboard.py`): lê Parquet direto do
-S3 com boto3/pandas, reconstruindo as colunas de partição Hive a partir do path.
+Lê Parquet direto do S3 com boto3/pandas, reconstruindo as colunas de partição Hive
+(`ano=2024/`) a partir do path, como no data lake do TC2.
 """
 import io
 import re

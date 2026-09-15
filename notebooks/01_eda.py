@@ -7,22 +7,26 @@ categoria. Salva as figuras em `reports/figuras/` e imprime um resumo textual.
 Rodar da raiz do repo:  python notebooks/01_eda.py
 """
 import os
+import sys
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 import matplotlib
-matplotlib.use("Agg")  # backend sem display (salva PNGs)
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 
+from src import config
+from src.evaluation.exportar_agregados import exportar_agregados
+
 sns.set_theme(style="whitegrid")
 pd.set_option("display.max_columns", None)
 
-AQUI = os.path.dirname(os.path.abspath(__file__))
-BASE = os.path.join(AQUI, "..", "data", "base_analitica.parquet")
-FIG = os.path.join(AQUI, "..", "reports", "figuras")
+FIG = config.FIGURAS_DIR
 os.makedirs(FIG, exist_ok=True)
 
-ALVO = "alfabetizado"
+ALVO = config.COLUNA_ALVO
 IDS = ["id_aluno", "id_municipio", "id_escola"]
 CATEGORICAS = ["rede", "sigla_uf", "nome_regiao", "nome_mesorregiao",
                "amazonia_legal", "capital_uf", "ano"]
@@ -37,7 +41,8 @@ def salvar(nome):
 
 
 def main():
-    df = pd.read_parquet(BASE)
+    base = config.base_local()
+    df = pd.read_parquet(base)
     numericas = [c for c in df.columns if c not in IDS + CATEGORICAS + [ALVO]]
     print(f"\n=== BASE === {df.shape[0]:,} linhas x {df.shape[1]} colunas")
     print(f"{len(numericas)} numéricas | {len(CATEGORICAS)} categóricas | alvo={ALVO}")
@@ -103,6 +108,7 @@ def main():
     por_decil.plot(marker="o", title="Alfabetização por decil de IDHM", ylim=(0, 1))
     salvar("06_idhm_decil.png")
 
+    exportar_agregados(base)
     print("\n=== EDA concluída ===")
 
 

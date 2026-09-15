@@ -1,25 +1,15 @@
 """Ingestão da base de alunos (grão aluno) a partir da camada Silver no S3.
 
-Carrega `silver/alunos` (2023+2024), define o alvo binário `alfabetizado` e deixa de
-fora as colunas de vazamento (proficiência, presença, preenchimento) — ver Planning §2.
+Carrega `silver/alunos` (2023+2024) e o alvo `alfabetizado`. Colunas medidas no exame
+(proficiência, presença, preenchimento) ficam de fora por vazarem o resultado.
 """
 import pandas as pd
 
 from src import config
 from src.data_access import ler_parquet_s3
 
-# Colunas do arquivo que carregamos. Ficam de FORA (data leakage / inúteis):
-#   proficiencia, presenca, preenchimento_caderno (medidos no exame),
-#   caderno (administrativo), serie (constante "2"), peso_aluno (peso amostral),
-#   e todas as *_desc (redundantes com os códigos).
-_COLS_ALUNOS = [
-    "id_aluno",       # identificador (não é feature)
-    "id_municipio",   # chave de join com covariáveis municipais
-    "id_escola",      # chave de join com o Censo Escolar
-    "rede",           # feature: rede de ensino (contexto, não vaza o alvo)
-    "sigla_uf",       # feature territorial
-    "alfabetizado",   # ALVO (string "0"/"1")
-]
+# id_escola é anonimizado no SAEB e não casa com o Censo; rede e sigla_uf são features.
+_COLS_ALUNOS = ["id_aluno", "id_municipio", "id_escola", "rede", "sigla_uf", "alfabetizado"]
 
 
 def carregar_alunos() -> pd.DataFrame:

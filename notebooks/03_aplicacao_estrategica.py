@@ -9,7 +9,10 @@ Rodar da raiz do repo:  python notebooks/03_aplicacao_estrategica.py
 """
 import json
 import os
+import sys
 import warnings
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 import matplotlib
 matplotlib.use("Agg")
@@ -23,14 +26,13 @@ from sklearn.metrics import silhouette_score
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 
+from src import config
 from src.data_access import ler_parquet_s3
 
 warnings.filterwarnings("ignore")
 
-AQUI = os.path.dirname(os.path.abspath(__file__))
-BASE = os.path.join(AQUI, "..", "data", "base_analitica.parquet")
-REPORTS = os.path.join(AQUI, "..", "reports")
-FIG = os.path.join(REPORTS, "figuras")
+REPORTS = config.REPORTS_DIR
+FIG = config.FIGURAS_DIR
 os.makedirs(FIG, exist_ok=True)
 SEED = 42
 
@@ -89,7 +91,7 @@ def clusterizar(muni, feats):
 
 
 def main():
-    base = pd.read_parquet(BASE)
+    base = pd.read_parquet(config.base_local())
     base["alfabetizado"] = base["alfabetizado"].astype(int)
     muni, feats = montar_municipios(base)
     print(f"municípios: {len(muni):,}")
@@ -119,11 +121,12 @@ def main():
     print("\n=== 3) PROJEÇÃO DE METAS 2030 (Gold) ===")
     proj_info = {}
     try:
-        gold = ler_parquet_s3("gold/indicador_municipio")
+        gold = ler_parquet_s3(config.GOLD_INDICADOR_MUNICIPIO)
+        gold["ano"] = gold["ano"].astype(int)
         piv = gold.pivot_table(index="id_municipio", columns="ano", values="taxa_alfabetizacao")
-        meta = gold[gold["ano"] == "2024"].set_index("id_municipio")["meta_alfabetizacao_2030"]
-        vel = piv["2024"] - piv["2023"]
-        proj_2030 = piv["2024"] + vel * (2030 - 2024)
+        meta = gold[gold["ano"] == 2024].set_index("id_municipio")["meta_alfabetizacao_2030"]
+        vel = piv[2024] - piv[2023]
+        proj_2030 = piv[2024] + vel * (2030 - 2024)
         gap = (proj_2030 - meta).dropna()
         n_risco_meta = int((gap < 0).sum())
         proj_info = {

@@ -1,0 +1,9 @@
+{
+  "modelo": "XGBoost (tunado)",
+  "acuracia": 0.6206,
+  "precisao_nao_alf": 0.6143,
+  "recall_nao_alf": 0.5934,
+  "f1_macro": 0.6199,
+  "roc_auc": 0.6699,
+  "auc_pr": 0.6824
+}

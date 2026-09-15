@@ -1,0 +1,38 @@
+{
+  "acuracia":{
+    "XGBoost":0.6226,
+    "Random Forest":0.6212,
+    "Regressão Logística":0.6017,
+    "Árvore de Decisão":0.5841
+  },
+  "precisao_nao_alf":{
+    "XGBoost":0.6144,
+    "Random Forest":0.6201,
+    "Regressão Logística":0.5959,
+    "Árvore de Decisão":0.6202
+  },
+  "recall_nao_alf":{
+    "XGBoost":0.6039,
+    "Random Forest":0.5735,
+    "Regressão Logística":0.5653,
+    "Árvore de Decisão":0.3763
+  },
+  "f1_macro":{
+    "XGBoost":0.6221,
+    "Random Forest":0.6197,
+    "Regressão Logística":0.6006,
+    "Árvore de Decisão":0.5634
+  },
+  "roc_auc":{
+    "XGBoost":0.6731,
+    "Random Forest":0.6717,
+    "Regressão Logística":0.6423,
+    "Árvore de Decisão":0.6292
+  },
+  "auc_pr":{
+    "XGBoost":0.6865,
+    "Random Forest":0.6842,
+    "Regressão Logística":0.6527,
+    "Árvore de Decisão":0.6364
+  }
+}

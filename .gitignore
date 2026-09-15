@@ -8,28 +8,30 @@ __pycache__/
 venv/
 .env
 
-# Jupyter
+# Jupyter / IDEs
 .ipynb_checkpoints/
-
-# IDEs
 .vscode/
 .idea/
 
-# Dados locais (não versionar datasets grandes — vivem no S3)
+# Dados: a base completa vive no S3; só a amostra é versionada
 data/*
-!data/.gitkeep
-*.csv
-*.parquet
+!data/amostra.parquet
 
-# Modelos treinados / artefatos
+# Modelos treinados
+models/
 *.joblib
 *.pkl
-models/
 
-# Dashboard gerado (HTML pesado com dados inline)
+# Dashboard gerado (HTML pesado, regenerado por gerar_dashboard.py)
 dashboard/index.html
 
-# Credenciais (NUNCA versionar chaves)
-*.json
-!package.json
+# Credenciais
 secrets/
+.gcp/
+*service-account*.json
+*service_account*.json
+*credentials*.json
+*-key.json
+
+# Material do curso (não versionar)
+docs/*.pdf

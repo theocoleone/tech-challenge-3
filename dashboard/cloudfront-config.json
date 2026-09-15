@@ -1,0 +1,26 @@
+{
+  "CallerReference": "tc3-dashboard-deploy-01",
+  "Comment": "TC3 dashboard alfabetizacao",
+  "Enabled": true,
+  "DefaultRootObject": "index.html",
+  "Origins": {"Quantity": 1, "Items": [{
+    "Id": "s3-tc3-dashboard",
+    "DomainName": "fiap-tc3-dashboard-286958704145.s3.us-east-1.amazonaws.com",
+    "OriginPath": "",
+    "CustomHeaders": {"Quantity": 0},
+    "S3OriginConfig": {"OriginAccessIdentity": ""},
+    "OriginAccessControlId": "EMEU8G9WDDUX4",
+    "ConnectionAttempts": 3, "ConnectionTimeout": 10,
+    "OriginShield": {"Enabled": false}
+  }]},
+  "DefaultCacheBehavior": {
+    "TargetOriginId": "s3-tc3-dashboard",
+    "ViewerProtocolPolicy": "redirect-to-https",
+    "AllowedMethods": {"Quantity": 2, "Items": ["GET", "HEAD"],
+      "CachedMethods": {"Quantity": 2, "Items": ["GET", "HEAD"]}},
+    "Compress": true,
+    "CachePolicyId": "658327ea-f89d-4fab-a63d-7e88639e58f6",
+    "SmoothStreaming": false, "FieldLevelEncryptionId": ""
+  },
+  "PriceClass": "PriceClass_100"
+}
