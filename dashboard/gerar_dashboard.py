@@ -15,7 +15,6 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
-BASE = os.path.join(AQUI, "..", "data", "base_analitica.parquet")
 REPORTS = os.path.join(AQUI, "..", "reports")
 FLOW_PNG = os.path.join(AQUI, "..", "images", "arquitetura_tc3.png")
 OUTPUT = os.path.join(AQUI, "index.html")
@@ -73,29 +72,28 @@ def item(pergunta, resposta, chart):
 
 
 def main():
-    base = pd.read_parquet(BASE, columns=["alfabetizado", "nome_regiao", "sigla_uf"])
-    base["alfabetizado"] = base["alfabetizado"].astype(int)
+    agg = cj("agregados_base.json")
     modelos = pd.DataFrame(cj("metricas_modelos.json"))
     campeao = cj("metricas_campeao.json")
+    nome_campeao = campeao["modelo"].replace(" (tunado)", "")
     perfil = pd.DataFrame(cj("perfil_clusters.json"))
     proj = cj("projecao_metas.json")
     conf = cj("confusao.json")
     roc = cj("roc.json")
     shap_imp = pd.Series(cj("shap_importancia.json")).sort_values()
-    taxa_nac = base["alfabetizado"].mean()
 
     kpis = [
-        ("Alunos analisados", f"{len(base):,}".replace(",", "."), "2º ano do EF · 2023–2024"),
-        ("Taxa de alfabetização", f"{taxa_nac:.0%}", "média nacional na base"),
-        ("ROC-AUC do modelo", f"{campeao['roc_auc']:.2f}", "XGBoost · classe binária"),
+        ("Alunos analisados", f"{agg['n_alunos']:,}".replace(",", "."), "2º ano do EF · 2023–2024"),
+        ("Taxa de alfabetização", f"{agg['taxa_nacional']:.0%}", "média nacional na base"),
+        ("ROC-AUC do modelo", f"{campeao['roc_auc']:.2f}", f"{nome_campeao} · classe binária"),
         ("Municípios fora da meta 2030", f"{proj['pct_nao_atingem']:.0f}%", "por projeção de tendência"),
     ]
 
-    reg = base.groupby("nome_regiao")["alfabetizado"].mean().sort_values()
+    reg = pd.Series(agg["taxa_por_regiao"]).sort_values()
     f_reg = px.bar(x=reg.values, y=reg.index, orientation="h", color=reg.values, color_continuous_scale=ESCALA)
     f_reg.update_layout(xaxis_tickformat=".0%", xaxis_title=None, yaxis_title=None)
     f_reg.update_traces(hovertemplate="%{y}: %{x:.1%}<extra></extra>")
-    uf = base.groupby("sigla_uf")["alfabetizado"].mean().sort_values()
+    uf = pd.Series(agg["taxa_por_uf"]).sort_values()
     f_uf = px.bar(x=uf.index, y=uf.values, color=uf.values, color_continuous_scale=ESCALA)
     f_uf.update_layout(yaxis_tickformat=".0%", xaxis_title=None, yaxis_title=None, xaxis={"categoryorder": "total ascending"})
     f_uf.update_traces(hovertemplate="%{x}: %{y:.1%}<extra></extra>")
@@ -150,7 +148,7 @@ def main():
             ("roc_auc", "ROC-AUC"), ("auc_pr", "AUC-PR")]
     linhas = ""
     for nome, row in modelos.sort_values("roc_auc", ascending=False).iterrows():
-        cls = "campeao" if "XGB" in nome else ""
+        cls = "campeao" if nome == nome_campeao else ""
         tds = "".join(f"<td>{row[c]:.3f}</td>" for c, _ in cols)
         linhas += f"<tr class='{cls}'><td>{nome}</td>{tds}</tr>"
     th = "".join(f"<th>{lab}</th>" for _, lab in cols)
@@ -225,7 +223,7 @@ def main():
           "</div>"]
     p += [bloco("2", "Modelo e avaliação"),
           "<div class='grade'>",
-          card("Comparação de modelos", "ROC-AUC no teste — XGBoost campeão.", tabela, wide=True),
+          card("Comparação de modelos", f"ROC-AUC no teste — {nome_campeao} campeão.", tabela, wide=True),
           card("ROC-AUC por modelo", "", div(f_roc_auc)),
           card("Matriz de confusão", "", div(fcm)),
           card("Curva ROC", f"Área sob a curva = {roc['auc']:.2f}.", div(froc)),
@@ -272,7 +270,7 @@ def main():
           "</div>"]
     p += ["</section>"]
 
-    p += ["</main>", _SCRIPT, _FOOT]
+    p += ["</main>", _SCRIPT, _foot(nome_campeao)]
 
     with open(OUTPUT, "w", encoding="utf-8") as f:
         f.write("\n".join(p))
@@ -415,8 +413,9 @@ footer b{color:var(--ink)}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style></head><body>"""
 
-_FOOT = """<footer>
-<b>Metodologia.</b> Modelo campeão: XGBoost (pipeline Scikit-learn com imputação, codificação e padronização
+def _foot(nome_campeao):
+    return f"""<footer>
+<b>Metodologia.</b> Modelo campeão: {nome_campeao} (pipeline Scikit-learn com imputação, codificação e padronização
 integradas; validação estratificada; tuning por RandomizedSearchCV; interpretação por SHAP). As métricas no grão
 individual são modestas por design — prever um aluno a partir de contexto agregado tem teto baixo; o valor está na
 interpretação e na leitura municipal. Alvo derivado do rótulo da fonte: alunos ausentes na avaliação contam como não

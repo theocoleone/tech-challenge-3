@@ -132,15 +132,16 @@ contínua entra no top-15**. A localização (qual UF/região) é o principal pr
 
 ```
 tech-challenge-3/
-├── data/            # base local (gitignored — vive no S3)
+├── data/            # base completa (gitignored, vive no S3) + amostra.parquet versionada
+├── docs/            # decisoes.md (registro de decisões), dicionario_dados.md, guideline
 ├── notebooks/       # 01_eda · 02_modelagem · 03_aplicacao_estrategica
 ├── src/
 │   ├── preprocessing/  # ingestão S3 + BigQuery, montagem da base
 │   ├── modeling/       # pipeline (ColumnTransformer) + treino/tuning
-│   ├── evaluation/     # métricas e gráficos
+│   ├── evaluation/     # métricas, gráficos e agregados para o dashboard
 │   └── visualization/
-├── dashboard/       # gerar_dashboard.py → index.html; deploy.sh (S3 + CloudFront)
-├── reports/         # métricas, figuras, roteiro do vídeo
+├── dashboard/       # gerar_dashboard.py → index.html; deploy.sh + configs S3/CloudFront
+├── reports/         # métricas (JSON/CSV) e figuras
 ├── images/          # fluxograma dos serviços AWS
 ├── requirements.txt
 └── requirements-cloud.txt
@@ -150,14 +151,23 @@ tech-challenge-3/
 ```bash
 python3.12 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
-# acesso ao data lake: AWS profile fiap-tech-challenge (conta 286958704145, us-east-1)
 
-python -m src.preprocessing.montar_base     # monta a base analítica (S3 + BigQuery)
-python notebooks/01_eda.py                    # análise exploratória
+# Acesso ao data lake (opcional — só para montar a base completa):
+#   AWS: profile fiap-tech-challenge (conta 286958704145, us-east-1)
+#   GCP: gcloud auth application-default login
+#        export GCP_BILLING_PROJECT=<projeto que fatura as queries no BigQuery>
+python -m src.preprocessing.montar_base       # S3 + BigQuery -> data/base_analitica.parquet
+
+python notebooks/01_eda.py                    # análise exploratória + agregados do dashboard
 python notebooks/02_modelagem.py              # treino, tuning, avaliação, SHAP
-python notebooks/03_aplicacao_estrategica.py  # clustering, risco, projeção de metas
-bash dashboard/deploy.sh                       # gera e publica o dashboard no CloudFront
+python notebooks/03_aplicacao_estrategica.py  # clustering, risco, projeção de metas (Gold no S3)
+python dashboard/gerar_dashboard.py           # index.html a partir de reports/ (sem dados brutos)
+bash dashboard/deploy.sh                      # publica no S3 + CloudFront
 ```
+
+Sem credenciais, os scripts usam automaticamente `data/amostra.parquet` (municípios inteiros
+sorteados por UF); EDA e modelagem rodam ponta a ponta, com números diferentes da base completa.
+A projeção de metas em `03` lê a Gold no S3 e é pulada sem acesso.
 
 **Nuvem:** dados/artefatos no **S3**, treino no **SageMaker**, dashboard servido via **CloudFront**
 (bucket privado com OAC). Fluxo: `BigQuery → S3 (features) → SageMaker → S3 (models/reports) → dashboard → CloudFront`.

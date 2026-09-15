@@ -8,7 +8,10 @@ Rodar da raiz do repo:  python notebooks/02_modelagem.py
 """
 import json
 import os
+import sys
 import warnings
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 import joblib
 import matplotlib
@@ -28,29 +31,29 @@ from sklearn.pipeline import Pipeline
 from sklearn.tree import DecisionTreeClassifier
 from xgboost import XGBClassifier
 
+from src import config
 from src.evaluation.metricas import avaliar, plot_confusao, plot_roc
 from src.modeling.pipeline import construir_preprocessador, separar_features
 
 warnings.filterwarnings("ignore")
 
-AQUI = os.path.dirname(os.path.abspath(__file__))
-BASE = os.path.join(AQUI, "..", "data", "base_analitica.parquet")
-REPORTS = os.path.join(AQUI, "..", "reports")
-FIG = os.path.join(REPORTS, "figuras")
-MODELS = os.path.join(AQUI, "..", "models")
+REPORTS = config.REPORTS_DIR
+FIG = config.FIGURAS_DIR
+MODELS = config.MODELS_DIR
 os.makedirs(FIG, exist_ok=True)
 os.makedirs(MODELS, exist_ok=True)
 
 SEED = 42
-N_AMOSTRA = 800_000   # amostra estratificada de 3,87M — decisão de tratabilidade (registrada)
+N_AMOSTRA = 800_000   # docs/decisoes.md, D06
 
 
 def main():
-    df = pd.read_parquet(BASE)
+    df = pd.read_parquet(config.base_local())
     if len(df) > N_AMOSTRA:
-        df, _ = train_test_split(df, train_size=N_AMOSTRA, stratify=df["alfabetizado"],
+        total = len(df)
+        df, _ = train_test_split(df, train_size=N_AMOSTRA, stratify=df[config.COLUNA_ALVO],
                                  random_state=SEED)
-        print(f"[amostra estratificada: {N_AMOSTRA:,} de 3.867.999 linhas]")
+        print(f"[amostra estratificada: {N_AMOSTRA:,} de {total:,} linhas]")
 
     X, y, numericas, categoricas = separar_features(df)
     print(f"features: {len(numericas)} numéricas + {len(categoricas)} categóricas")

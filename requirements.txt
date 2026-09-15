@@ -1,24 +1,14 @@
-# Tech Challenge Fase 3 — dependências (Python 3.12)
-
-# --- Dados / IO ---
+# Tech Challenge Fase 3 — Python 3.12
 pandas==2.3.3
-numpy>=1.26,<2.2
+numpy==2.1.3
 pyarrow==21.0.0
-boto3==1.42.97                 # leitura do data lake no S3 (conta 286958704145)
-
-# --- Ingestão de fontes externas (BigQuery / Base dos Dados) ---
+boto3==1.42.97
 google-cloud-bigquery==3.41.0
 db-dtypes==1.6.0
-
-# --- Machine Learning ---
 scikit-learn==1.5.2
 xgboost==2.1.1
-category_encoders==2.6.4       # target/frequency encoding fold-safe
-imbalanced-learn==0.12.4       # tratamento de desbalanceamento do alvo
-shap==0.46.0                   # interpretabilidade (SHAP values)
-joblib==1.4.2                  # persistência do pipeline treinado
-
-# --- Visualização ---
+shap==0.46.0
+joblib==1.4.2
 matplotlib==3.9.2
 seaborn==0.13.2
-plotly==6.1.2                  # dashboard estático publicado no CloudFront
+plotly==6.1.2

@@ -1,10 +1,11 @@
-"""Monta a base analítica do TC3 (grão aluno) e persiste em local + S3.
+"""Monta a base analítica (grão aluno) e persiste em local + S3.
 
-Join:
-  alunos ⨝ censo_escolar  ON (id_escola, ano)      -> contexto da escola (year-matched)
-  alunos ⨝ socio_municipio ON  id_municipio         -> covariáveis municipais (estáticas)
+Joins:
+  alunos ⨝ censo_escolar   ON (id_municipio, ano)   contexto escolar do município no ano da prova
+  alunos ⨝ socio_municipio ON  id_municipio         covariáveis municipais estáticas
 
-Saída: data/base_analitica.parquet (para EDA local) e s3://<bucket>/tc3/features/ (para o SageMaker).
+Saída: data/base_analitica.parquet e s3://<bucket>/tc3/features/base_analitica.parquet.
+Rodar da raiz do repo:  python -m src.preprocessing.montar_base
 """
 import os
 
@@ -16,7 +17,7 @@ from src.preprocessing.ingestao_bq import (
 )
 from src.preprocessing.ingestao_s3 import carregar_alunos
 
-DATA_LOCAL = os.path.join(os.path.dirname(__file__), "..", "..", "data", "base_analitica.parquet")
+DATA_LOCAL = config.BASE_LOCAL
 
 
 def montar_base(salvar_s3: bool = True):
@@ -47,13 +48,13 @@ def montar_base(salvar_s3: bool = True):
 
     os.makedirs(os.path.dirname(DATA_LOCAL), exist_ok=True)
     base.to_parquet(DATA_LOCAL, index=False)
-    print(f"     salvo local -> {os.path.relpath(DATA_LOCAL)}")
+    print(f"     salvo local -> {os.path.relpath(DATA_LOCAL, config.RAIZ)}")
 
     if salvar_s3:
         try:
             uri = gravar_parquet_s3(base, f"{config.TC3_FEATURES}/base_analitica.parquet")
             print(f"     salvo S3 -> {uri}")
-        except Exception as e:  # perfil CLI pode não ter PutObject; segue com o local
+        except Exception as e:
             print(f"     [aviso] não foi possível gravar no S3 ({type(e).__name__}: {e}). "
                   f"Base local disponível para prosseguir.")
     return base
