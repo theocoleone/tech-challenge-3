@@ -1,18 +1,15 @@
 """Ingestão das fontes externas (BigQuery / Base dos Dados) para enriquecer a base.
 
-Duas famílias, todas de variáveis NÃO-vazadas (pré-condições, não saídas do exame):
-  - Escola  (Censo Escolar INEP) — infra/docentes/matrículas AGREGADAS por (id_municipio, ano)
-             (o id_escola do SAEB é anonimizado e não casa com o código INEP; ver Planning §2).
-  - Município (Atlas ADH 2010 + IVS/AVS 2010 + PIB/pop 2023 + diretório), estático por id_municipio.
+Duas famílias, ambas de pré-condições (nada medido no exame):
+  - Escola: Censo Escolar INEP agregado por (id_municipio, ano) — o id_escola do SAEB é
+    anonimizado e não casa com o código INEP (docs/decisoes.md, D04).
+  - Município: Atlas ADH 2010 + IVS 2010 + população/PIB 2023 + diretório IBGE (D05).
 """
 import pandas as pd
 
 from src.data_access import query_bigquery
 
-# --- Censo Escolar: infraestrutura da escola AGREGADA ao município ---
-# O id_escola do SAEB alfabetização é ANONIMIZADO (não é o código INEP), então não há
-# join escola-a-escola. Agregamos o Censo por município-ano: proporção de escolas de anos
-# iniciais com cada item de infra + média de docentes/matrículas/salas por escola.
+# Proporção de escolas de anos iniciais com cada item + média de docentes/matrículas/salas.
 _ESCOLA_BIN = [
     "agua_rede_publica", "energia_rede_publica", "esgoto_rede_publica",
     "internet", "banda_larga", "biblioteca",
@@ -23,9 +20,7 @@ _ESCOLA_QTD = [
     "quantidade_docente_fundamental_anos_iniciais",
     "quantidade_matricula_fundamental_anos_iniciais",
     "quantidade_sala_utilizada",
-    # quantidade_computador_aluno e quantidade_funcionario ficam de fora:
-    # o Censo 2023/2024 não preenche esses campos (100% nulos na EDA).
-]
+]  # quantidade_computador_aluno e quantidade_funcionario vêm 100% nulos em 2023/2024
 
 
 def carregar_censo_escolar_municipio(anos=(2023, 2024)) -> pd.DataFrame:
