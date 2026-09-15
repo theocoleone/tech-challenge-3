@@ -23,8 +23,8 @@ _ESCOLA_QTD = [
     "quantidade_docente_fundamental_anos_iniciais",
     "quantidade_matricula_fundamental_anos_iniciais",
     "quantidade_sala_utilizada",
-    "quantidade_computador_aluno",
-    "quantidade_funcionario",
+    # quantidade_computador_aluno e quantidade_funcionario ficam de fora:
+    # o Censo 2023/2024 não preenche esses campos (100% nulos na EDA).
 ]
 
 
