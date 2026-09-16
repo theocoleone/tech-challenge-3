@@ -36,3 +36,7 @@ secrets/
 # Material local (guideline, roteiro, teleprompter)
 docs/*.pdf
 local/
+
+# Vídeo (publicar no YouTube, não no git)
+*.mp4
+*.sb-*
